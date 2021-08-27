@@ -7041,7 +7041,7 @@ margin-right:0;
 }
 
 #PageContainer {
-  padding-top: 80px;
+  padding-top: 110px;
 }
 
 @media screen and (max-width: 749px) {
@@ -7083,8 +7083,4 @@ margin-right:0;
   .product-grid-infos-mobile{
     display: block;
   }
- }
- 
- .grid{
-   margin-top: 20px;
  }
