@@ -288,10 +288,58 @@
           "sort": "alphabetical",
           "grid": 2
         }
+      },
+      "163026870000dfee98": {
+        "type": "image-link-grid",
+        "blocks": {
+          "163026870000dfee98-0": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
+              "title": "ART",
+              "button_link": ""
+            }
+          },
+          "163026870000dfee98-1": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
+              "title": "MAROQUINERIE",
+              "button_link": ""
+            }
+          },
+          "163026870000dfee98-2": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
+              "title": "DECORATION \/ DESIGN",
+              "button_link": ""
+            }
+          },
+          "ac380e67-ef9d-4d25-8380-c84382b35bde": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
+              "title": "TOTO",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "163026870000dfee98-0",
+          "163026870000dfee98-1",
+          "163026870000dfee98-2",
+          "ac380e67-ef9d-4d25-8380-c84382b35bde"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
       }
     },
     "content_for_index": [
-      "1621421438e24ee9b6"
+      "1621421438e24ee9b6",
+      "163026870000dfee98"
     ]
   },
   "presets": {
