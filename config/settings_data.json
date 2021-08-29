@@ -1,5 +1,7 @@
 {
   "current": {
+    "type_header_font": "sans-serif",
+    "type_header_base_size": 25,
     "sections": {
       "header": {
         "type": "header",
