@@ -174,7 +174,7 @@
           "1621421438e24ee9b6-0": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
+              "image": "shopify:\/\/shop_images\/T7A5164-4_copie.jpg",
               "title": "STUDIO",
               "button_link": "shopify:\/\/pages\/studio"
             }
@@ -182,7 +182,6 @@
           "1621421438e24ee9b6-1": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
               "title": "SHOP",
               "button_link": "shopify:\/\/collections"
             }
@@ -190,7 +189,6 @@
           "e572bc00-0cca-4660-8539-90168b667597": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
               "title": "COLLABORATIONS",
               "button_link": ""
             }
@@ -198,7 +196,6 @@
           "fc397702-35cf-4723-84f6-7a80033d875a": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
               "title": "ASSEMBLAGE",
               "button_link": ""
             }
@@ -295,7 +292,6 @@
           "163026870000dfee98-0": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
               "title": "ART",
               "button_link": ""
             }
@@ -303,7 +299,6 @@
           "163026870000dfee98-1": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
               "title": "MAROQUINERIE",
               "button_link": ""
             }
@@ -311,7 +306,6 @@
           "163026870000dfee98-2": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
               "title": "DECORATION \/ DESIGN",
               "button_link": ""
             }
@@ -319,7 +313,6 @@
           "ac380e67-ef9d-4d25-8380-c84382b35bde": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
               "title": "TOTO",
               "button_link": ""
             }
