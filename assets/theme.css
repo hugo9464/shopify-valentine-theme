@@ -389,6 +389,10 @@ textarea {
   Reversed grids allow you to structure your source in the opposite
   order to how your rendered layout will appear.
 ==============================================================================*/
+.grid__item{
+  margin-bottom: 30px;
+}
+
 .grid--rev {
   direction: rtl;
   text-align: left; }
@@ -7088,7 +7092,12 @@ margin-right:0;
  }
  
  .has-secondary.grid-view-item__link:hover div.secondary{
-  display:block;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dad5b1;
+  height: 100%;
  }
  
  .has-secondary.grid-view-item__link:hover img.grid-view-item__image{
@@ -7101,7 +7110,12 @@ margin-right:0;
  }
  
  .has-secondary.grid-view-item__link:hover div.secondary{
-  display:block;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dad5b1;
+  height: 100%;
  }
  
  .has-secondary.grid-view-item__link:hover img.grid-view-item__image{
