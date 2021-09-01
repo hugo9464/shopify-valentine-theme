@@ -7,13 +7,14 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo_max_width": 100,
+          "logo": "shopify:\/\/shop_images\/VHLogo-Final_V_a7154498-39f4-46fa-9750-e374d8c89197.png",
+          "logo_max_width": 250,
           "main_linklist": "main-menu",
           "message": false,
           "home_page_only": true,
           "message_text": "Annoncez quelque chose ici",
           "message_link": "",
-          "color_bg": "#3a3a3a",
+          "color_bg": "#333232",
           "color_text": "#ffffff"
         }
       },
