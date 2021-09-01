@@ -184,7 +184,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/slidepochette.jpg",
               "title": "SHOP",
-              "button_link": "shopify:\/\/collections"
+              "button_link": "shopify:\/\/pages\/shop"
             }
           },
           "e572bc00-0cca-4660-8539-90168b667597": {
