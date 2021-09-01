@@ -235,14 +235,41 @@
           "46da60cb-5308-4419-acde-3695f90a9025": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/VitrineNageuses1.jpg",
-              "title": "Art",
-              "button_link": "shopify:\/\/collections\/art"
+              "image": "shopify:\/\/shop_images\/Coraux_281c66b2-2b78-4750-bf0f-3821327f6e90.jpg",
+              "title": "ART",
+              "button_link": "shopify:\/\/pages\/art"
+            }
+          },
+          "0ffac1bc-007f-47e9-921b-17ed15774220": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slidepochette.jpg",
+              "title": "MAROQUINERIE",
+              "button_link": ""
+            }
+          },
+          "ca9b9785-8762-4edc-9601-ae070bb166d8": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Mornerougeslide.jpg",
+              "title": "DECORATION \/ DESIGN",
+              "button_link": ""
+            }
+          },
+          "8519ce9e-302a-4594-a7c2-fc98472ded70": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slidebackgammongris.jpg",
+              "title": "ASSEMBLAGE",
+              "button_link": ""
             }
           }
         },
         "block_order": [
-          "46da60cb-5308-4419-acde-3695f90a9025"
+          "46da60cb-5308-4419-acde-3695f90a9025",
+          "0ffac1bc-007f-47e9-921b-17ed15774220",
+          "ca9b9785-8762-4edc-9601-ae070bb166d8",
+          "8519ce9e-302a-4594-a7c2-fc98472ded70"
         ],
         "settings": {
           "title": "",
@@ -334,6 +361,13 @@
         "settings": {
           "title": "",
           "align_text": "left"
+        }
+      },
+      "simple-button": {
+        "type": "simple-button",
+        "settings": {
+          "button_label": "TOUS LES PRODUITS",
+          "button_link": "shopify:\/\/collections\/all"
         }
       }
     },
