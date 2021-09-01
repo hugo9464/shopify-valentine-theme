@@ -7048,7 +7048,7 @@ margin-right:0;
 /* ===============================================
 // Reveal module
 // =============================================== */
-@media screen and (min-width:750px){
+/* @media screen and (min-width:750px){ */
   .secondary{
     display: none;
   }
@@ -7072,9 +7072,9 @@ margin-right:0;
   .has-secondary.grid-view-item__link:hover img.grid-view-item__image{
     display:none;
   }
-}
+/* } */
  
- @media screen and (max-width:749px){
+ /* @media screen and (max-width:749px){
   .secondary{
     display:none;
   }
@@ -7082,4 +7082,4 @@ margin-right:0;
   .product-grid-infos-mobile{
     display: block;
   }
- }
+ } */
