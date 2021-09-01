@@ -7073,7 +7073,7 @@ margin-right:0;
  
  @media screen and (max-width:749px){
   .secondary{
-    display:none;
+    visibility: hidden;
   }
 
   .product-grid-infos-mobile{
