@@ -7050,7 +7050,7 @@ margin-right:0;
 // =============================================== */
 @media screen and (min-width:750px){
   .secondary{
-    display: none!important;
+    display: none;
   }
   .product-grid-infos-mobile{
     display: none;
@@ -7061,7 +7061,7 @@ margin-right:0;
   }
   
   .has-secondary.grid-view-item__link:hover .secondary{
-    display: flex!important;
+    display: flex;
     flex: 1;
     background-color: hsl(51, 30%, 86%);
     flex-direction: column;
