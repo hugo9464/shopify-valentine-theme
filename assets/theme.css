@@ -7063,7 +7063,7 @@ margin-right:0;
   .has-secondary.grid-view-item__link:hover .secondary{
     display: flex!important;
     flex: 1;
-    background-color: #f6f2d7;
+    background-color: #bbb25d;
     flex-direction: column;
     justify-content: center;
     align-items: center;
