@@ -7050,13 +7050,14 @@ margin-right:0;
 // =============================================== */
 @media screen and (min-width:750px){
   .secondary{
-    display: none;
+    visibility: hidden;
   }
   .product-grid-infos-mobile{
     display: none;
   }
 
   .has-secondary.grid-view-item__link:hover .secondary{
+    visibility: visible;
     display: flex;
     flex: 1;
     background-color: hsl(51, 30%, 86%);
