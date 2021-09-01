@@ -7055,9 +7055,14 @@ margin-right:0;
   .product-grid-infos-mobile{
     display: none;
   }
+
+  .has-secondary{
+    height: 343.33px;
+  }
   
   .has-secondary.grid-view-item__link:hover .secondary{
     display: flex;
+    flex: 1;
     background-color: #f6f2d7;
     flex-direction: column;
     justify-content: center;
