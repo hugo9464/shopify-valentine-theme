@@ -369,6 +369,28 @@
           "button_label": "TOUS LES PRODUITS",
           "button_link": "shopify:\/\/collections\/all"
         }
+      },
+      "collection-art-2": {
+        "type": "collection-art-2",
+        "settings": {
+          "title": "KACHINAS",
+          "collection": "pieces-uniques",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "collection-art-3": {
+        "type": "collection-art-3",
+        "settings": {
+          "title": "NOURRITURZ",
+          "collection": "accessoires",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
       }
     },
     "content_for_index": [
