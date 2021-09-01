@@ -7056,10 +7056,6 @@ margin-right:0;
     display: none;
   }
 
-  .has-secondary{
-    height: 343.33px;
-  }
-  
   .has-secondary.grid-view-item__link:hover .secondary{
     display: flex;
     flex: 1;
