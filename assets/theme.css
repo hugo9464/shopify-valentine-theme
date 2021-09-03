@@ -7169,3 +7169,5 @@ margin-right:0;
   text-decoration: underline;
 }
  
+
+.site-header__logo-image { background: transparent!Important; animation: none!important; }
