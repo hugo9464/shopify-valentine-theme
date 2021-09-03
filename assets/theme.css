@@ -702,7 +702,7 @@ textarea {
   /* Thirds */
   .medium-up--one-third {
     width: 33.33333%;
-    height: 343px }
+    height: 410px }
   .medium-up--two-thirds {
     width: 66.66667%; }
   /* Quarters */
@@ -1099,7 +1099,7 @@ textarea {
 /*================ #Basic Styles ================*/
 .page-width {
   *zoom: 1;
-  max-width: 1200px;
+  max-width: 1380px;
   margin: 0 auto; }
   .page-width::after {
     content: '';
