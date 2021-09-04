@@ -702,7 +702,7 @@ textarea {
   /* Thirds */
   .medium-up--one-third {
     width: 33.33333%;
-    height: 410px }
+    height: 403px }
   .medium-up--two-thirds {
     width: 66.66667%; }
   /* Quarters */
@@ -7064,42 +7064,7 @@ margin-right:0;
 /* ===============================================
 // Reveal module
 // =============================================== */
-/* @media screen and (min-width:750px){
-  .secondary{
-    visibility: hidden;
-  }
-  .product-grid-infos-mobile{
-    display: none;
-  }
-
-  .has-secondary.grid-view-item__link:hover .secondary{
-    visibility: visible;
-    display: flex;
-    flex: 1;
-    background-color: hsl(51, 30%, 86%);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .has-secondary.grid-view-item__link:hover img.grid-view-item__image{
-    display:none;
-  }
-}
- 
- @media screen and (max-width:749px){
-  .secondary{
-    visibility: hidden;
-  }
-
-  .product-grid-infos-mobile{
-    display: block;
-  }
- } */
-/* ===============================================
-// Reveal module
-// =============================================== */
-.has-secondary.grid-view-item__link div.secondary{
+/* .has-secondary.grid-view-item__link div.secondary{
   display:none;
  }
  
@@ -7114,9 +7079,9 @@ margin-right:0;
  
  .has-secondary.grid-view-item__link:hover img.grid-view-item__image{
   display:none;
- }
+ } */
  
- @media screen and (min-width:767px){
+ @media screen and (min-width:750px){
  .has-secondary.grid-view-item__link div.secondary{
   display:none;
  }
