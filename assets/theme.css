@@ -1302,7 +1302,10 @@ h6,
       text-shadow: 0 0 4px rgba(0, 0, 0, 0.4); } }
 
 .mega-title {
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+  display: inline-block;
+  margin: auto;
+  padding-inline: 10px; }
 
 .mega-title--large {
   font-size: calc(((var(--font-size-header) + 8) / (var(--font-size-base))) * 1em); }
@@ -5775,7 +5778,14 @@ hr {
 
 .feature-row__image-wrapper {
   position: relative;
-  width: 100%; }
+  width: 100% }
+
+.feature-row__image-wrapper:hover {
+  opacity: 80%; }
+
+  .feature-row__image-wrapper:hover .mega-title {
+    border-style: solid;
+    border-color: white; }
 
 .feature-row__image {
   display: block;
