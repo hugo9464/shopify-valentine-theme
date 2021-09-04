@@ -7100,7 +7100,7 @@ margin-right:0;
   }
 }
 
-@media screen and (max-width:749px){
+/* @media screen and (max-width:749px){
   .has-secondary.grid-view-item__link div.secondary{
     display:block;
   }
@@ -7113,7 +7113,7 @@ margin-right:0;
   .has-secondary.grid-view-item__link:hover img.grid-view-item__image{
     display:block;
   }
-}
+} */
 
 
  .breadcrumbs {
