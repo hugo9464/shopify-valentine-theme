@@ -7117,8 +7117,17 @@ margin-right:0;
 }
 
 @media screen and (max-width:749px){
-  .secondary {
-    display: block;
+  .has-secondary.grid-view-item__link div.secondary{
+    display:block;
+  }
+  
+  .has-secondary.grid-view-item__link:hover div.secondary{
+    display:block;
+    background-color: transparent;
+  }
+  
+  .has-secondary.grid-view-item__link:hover img.grid-view-item__image{
+    display:block;
   }
 }
 
