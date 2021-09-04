@@ -7083,7 +7083,7 @@ margin-right:0;
  
  @media screen and (min-width:750px){
   .has-secondary.grid-view-item__link div.secondary{
-    display:none !important;
+    display:none;
   }
   
   .has-secondary.grid-view-item__link:hover div.secondary{
