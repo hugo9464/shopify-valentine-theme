@@ -434,6 +434,74 @@
         "settings": {
           "title": "Studio"
         }
+      },
+      "custom-content-assemblage": {
+        "type": "custom-content-assemblage",
+        "blocks": {
+          "42b07bf0-9b18-4736-8528-9ed16dc45a25": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p><strong>Lorem Ipsum<\/strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
+              "width": "100%",
+              "alignment": "top-middle",
+              "align_text": "center"
+            }
+          }
+        },
+        "block_order": [
+          "42b07bf0-9b18-4736-8528-9ed16dc45a25"
+        ],
+        "settings": {
+          "title": "Assemblage"
+        }
+      },
+      "image-link-grid-assemblage": {
+        "type": "image-link-grid-assemblage",
+        "blocks": {
+          "83ab6483-6b95-4639-820b-a6cdf5c28cdd": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Coraux_281c66b2-2b78-4750-bf0f-3821327f6e90.jpg",
+              "title": "MARQUETERIE",
+              "button_link": ""
+            }
+          },
+          "5fa4b97f-d170-44dd-bd18-ad8c9bdb7d90": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Mornerougeslide.jpg",
+              "title": "PLATEAUX",
+              "button_link": ""
+            }
+          },
+          "44d789ea-8587-405e-bb46-72147b6963f8": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slidepochette.jpg",
+              "title": "MUR VEGETAL",
+              "button_link": ""
+            }
+          },
+          "2f83bd5c-984d-4835-bc3e-99eb8ff5c545": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slide2surf.jpg",
+              "title": "MOBILES",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "83ab6483-6b95-4639-820b-a6cdf5c28cdd",
+          "5fa4b97f-d170-44dd-bd18-ad8c9bdb7d90",
+          "44d789ea-8587-405e-bb46-72147b6963f8",
+          "2f83bd5c-984d-4835-bc3e-99eb8ff5c545"
+        ],
+        "settings": {
+          "title": "Colonnes de texte et images",
+          "align_text": "left"
+        }
       }
     },
     "content_for_index": [
