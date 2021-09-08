@@ -204,7 +204,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/slidebackgammongris.jpg",
               "title": "ASSEMBLAGE",
-              "button_link": ""
+              "button_link": "shopify:\/\/pages\/assemblage-1"
             }
           }
         },
@@ -240,15 +240,15 @@
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/Coraux_281c66b2-2b78-4750-bf0f-3821327f6e90.jpg",
-              "title": "ART",
-              "button_link": "shopify:\/\/pages\/art"
+              "title": "MARQUETERIE",
+              "button_link": ""
             }
           },
           "0ffac1bc-007f-47e9-921b-17ed15774220": {
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/slidepochette.jpg",
-              "title": "MAROQUINERIE",
+              "title": "PLATEAUX",
               "button_link": ""
             }
           },
@@ -256,7 +256,7 @@
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/Mornerougeslide.jpg",
-              "title": "DECORATION \/ DESIGN",
+              "title": "MUR VÉGÉTAL",
               "button_link": ""
             }
           },
@@ -264,7 +264,7 @@
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/slidebackgammongris.jpg",
-              "title": "ASSEMBLAGE",
+              "title": "MOBILE",
               "button_link": ""
             }
           }
@@ -299,7 +299,7 @@
           "show_vendor": false,
           "enable_payment_button": false,
           "show_share_buttons": false,
-          "media_size": "medium",
+          "media_size": "large",
           "enable_image_zoom": true,
           "enable_video_looping": false
         }
@@ -394,6 +394,27 @@
           "rows": 2,
           "show_vendor": false,
           "show_view_all": false
+        }
+      },
+      "custom-content": {
+        "type": "custom-content",
+        "blocks": {
+          "85c6700e-eb70-42cf-9f92-10fee9cb65ab": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p><strong>Lorem Ipsum<\/strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          }
+        },
+        "block_order": [
+          "85c6700e-eb70-42cf-9f92-10fee9cb65ab"
+        ],
+        "settings": {
+          "title": "Assemblage"
         }
       }
     },
