@@ -395,33 +395,11 @@
           "show_vendor": false,
           "show_view_all": false
         }
-      },
-      "1631098556d44267bc": {
-        "type": "custom-content",
-        "blocks": {
-          "1631098556d44267bc-0": {
-            "type": "text",
-            "settings": {
-              "title": "Parlez de votre marque",
-              "text": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.<\/p>",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "left"
-            }
-          }
-        },
-        "block_order": [
-          "1631098556d44267bc-0"
-        ],
-        "settings": {
-          "title": "Contenu personnalisé"
-        }
       }
     },
     "content_for_index": [
       "1621421438e24ee9b6",
-      "163026870000dfee98",
-      "1631098556d44267bc"
+      "163026870000dfee98"
     ]
   },
   "presets": {
