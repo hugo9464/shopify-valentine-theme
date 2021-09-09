@@ -7087,7 +7087,7 @@ margin-right:0;
     display: none !important;
   }
 
-  .has-secondary:hover .grid-view-item__image{
+  .has-secondary:not(:hover) .grid-view-item__image{
     display: block !important;
   }
   
