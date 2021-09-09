@@ -7084,10 +7084,11 @@ margin-right:0;
  
  /* @media screen and (min-width:750px){ */
   .secondary{
-    display:none;
+    visibility: hidden;
   }
   
-  /* .has-secondary:hover .secondary{
+  .has-secondary:hover .secondary{
+    visibility: visible;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -7097,8 +7098,8 @@ margin-right:0;
   }
   
   .has-secondary:hover .grid-view-item__image{
-    display:none;
-  } */
+    display: none;
+  }
 /* } */
 
 /* @media screen and (max-width:749px){
