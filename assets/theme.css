@@ -7087,22 +7087,7 @@ margin-right:0;
     display: none !important;
   }
 
-  .has-secondary:not(:hover) .grid-view-item__image{
-    display: block !important;
-  }
-  
-  .has-secondary:hover .secondary{
-    display:flex !important;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #dad5b1;
-    height: 100%;
-  }
-  
-  .has-secondary:hover .grid-view-item__image{
-    display: none !important;
-  }
+
 /* } */
 
 /* @media screen and (max-width:749px){
