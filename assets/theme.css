@@ -7083,9 +7083,9 @@ margin-right:0;
 // =============================================== */
  
  /* @media screen and (min-width:750px){ */
-  .secondary{
-    display:none;
-  }
+  /* .secondary{
+    display:none !important;
+  } */
   
   /* .has-secondary:hover .secondary{
     display:flex;
