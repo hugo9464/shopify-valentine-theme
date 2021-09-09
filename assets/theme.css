@@ -7083,7 +7083,7 @@ margin-right:0;
 // =============================================== */
  
  /* @media screen and (min-width:750px){ */
-  .has-secondary:not(:hover) .secondary{
+  .secondary{
     display: none !important;
   }
 
