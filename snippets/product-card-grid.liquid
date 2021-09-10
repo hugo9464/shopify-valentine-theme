@@ -3,7 +3,7 @@
 {% endunless %}
 <div class="grid-view-item{% unless product.available %} product-price--sold-out grid-view-item--sold-out{% endunless %}">
   <a class="grid-view-item__link has-secondary" href="{{ product.url | within: collection }}">
-    <img class="grid-view-item__image" src="{{ product.featured_image.src | img_url: grid_image_width }}" alt="{{ product.featured_image.alt }}">
+    <img class="grid-view-item__image primary" src="{{ product.featured_image.src | img_url: grid_image_width }}" alt="{{ product.featured_image.alt }}">
     <div class="secondary">
         <div class="h4 grid-view-item__title secondary">{{ product.title }}</div>
         <div class="grid-view-item__meta secondary">
