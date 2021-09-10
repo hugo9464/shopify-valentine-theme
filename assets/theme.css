@@ -7083,7 +7083,7 @@ margin-right:0;
 // =============================================== */
 
 .secondary{
-  opacity: 0;
+  color: white;
 }
 
 .has-secondary:hover .secondary{
