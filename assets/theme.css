@@ -7083,11 +7083,11 @@ margin-right:0;
 // =============================================== */
 
 .secondary{
-  display: none;
+  opacity: 0;
 }
 
 .has-secondary:hover .secondary{
-  display: block;
+  opacity: 1;
 }
 
 .has-secondary:hover .primary{
