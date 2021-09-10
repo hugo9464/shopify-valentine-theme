@@ -7137,5 +7137,10 @@ margin-right:0;
 }
 
 .has-secondary:hover .secondary {
-  display: block;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dad5b1;
+  height: 100%;
 }
