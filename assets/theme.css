@@ -7078,28 +7078,6 @@ margin-right:0;
 }
 }
 
-/* ===============================================
-// Reveal module
-// =============================================== */
-
-.has-secondary:hover .secondary{
-  opacity: 1;
-}
-
-.has-secondary:hover .primary{
-  display: none;
-}
-
-/* .has-secondary.grid-view-item__link:hover div.secondary{
-  display:block;
-  background-color: transparent;
-}
-
-.has-secondary.grid-view-item__link:hover img.grid-view-item__image{
-  display:block;
-} */
-
-
  .breadcrumbs {
   font-size: .85em;
   margin: 0 0 2em;
@@ -7150,7 +7128,14 @@ margin-right:0;
 
 .site-header__logo-image { background: transparent!Important; animation: none!important; }
 
-.grid-view-item__title{
-  color: red;
-  background-color: blue;
+.secondary{
+  display: none;
+}
+
+.has-secondary:hover .primary {
+  display: none;
+}
+
+.has-secondary:hover .secondary {
+  display: block;
 }
