@@ -7151,6 +7151,6 @@ margin-right:0;
 .site-header__logo-image { background: transparent!Important; animation: none!important; }
 
 .grid-view-item__title{
-  color: blue;
-  background-color: red;
+  color: red;
+  background-color: blue;
 }
