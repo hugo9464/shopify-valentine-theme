@@ -502,6 +502,43 @@
           "title": "Colonnes de texte et images",
           "align_text": "left"
         }
+      },
+      "custom-content-studio": {
+        "type": "custom-content-studio",
+        "blocks": {
+          "6fbb8c59-9974-4d78-b20d-a078f43203a0": {
+            "type": "image",
+            "settings": {
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
+          "cf09d776-591b-4293-a554-256a4384f734": {
+            "type": "image",
+            "settings": {
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
+          "d991cf1a-ff8e-4494-b1ef-15c0d97c3895": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          }
+        },
+        "block_order": [
+          "6fbb8c59-9974-4d78-b20d-a078f43203a0",
+          "cf09d776-591b-4293-a554-256a4384f734",
+          "d991cf1a-ff8e-4494-b1ef-15c0d97c3895"
+        ],
+        "settings": {
+          "title": "STUDIO"
+        }
       }
     },
     "content_for_index": [
