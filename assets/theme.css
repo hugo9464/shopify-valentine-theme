@@ -7082,11 +7082,6 @@ margin-right:0;
 // Reveal module
 // =============================================== */
 
-.grid-view-item__title{
-  color: blue;
-  background-color: red;
-}
-
 .has-secondary:hover .secondary{
   opacity: 1;
 }
@@ -7154,3 +7149,8 @@ margin-right:0;
  
 
 .site-header__logo-image { background: transparent!Important; animation: none!important; }
+
+.grid-view-item__title{
+  color: blue;
+  background-color: red;
+}
