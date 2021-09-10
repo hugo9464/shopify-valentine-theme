@@ -7084,6 +7084,7 @@ margin-right:0;
 
 .grid-view-item__title{
   color: blue;
+  background-color: red;
 }
 
 .has-secondary:hover .secondary{
