@@ -5,10 +5,10 @@
   <a class="grid-view-item__link has-secondary" href="{{ product.url | within: collection }}">
     <img class="grid-view-item__image primary" src="{{ product.featured_image.src | img_url: grid_image_width }}" alt="{{ product.featured_image.alt }}">
     <div class="secondary">
-        <div class="h4 grid-view-item__title secondary">{{ product.title }}</div>
-        <div class="grid-view-item__meta secondary">
+        <p class="h4 grid-view-item__title secondary">{{ product.title }}</p>
+        <p class="grid-view-item__meta secondary">
           {% include 'product-price', variant: product %}
-        </div>
+        </p>
     </div>
      {% comment %} <img src="{{ product.images.last | img_url: grid_image_width }}" alt="{{ product.images.last.alt | escape }}"> {% endcomment %}
   </a>
