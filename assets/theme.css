@@ -2741,7 +2741,8 @@ hr {
 
 .product-single {
   padding-top: 50px;
-  overflow-anchor: none; }
+  overflow-anchor: none;
+  background-color: rgb(241, 241, 241); }
 
 .product-single__title {
   margin-bottom: 0.5rem; }
@@ -2976,7 +2977,9 @@ hr {
 
 .product-single__media-wrapper {
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(221, 221, 221); }
 
 .product-single__media {
   margin: 0 auto;
