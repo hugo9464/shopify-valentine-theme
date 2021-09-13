@@ -36,7 +36,7 @@
   {% endcase %}
 
   <div class="grid product-single{% if section.settings.enable_payment_button %} product-single--{{ section.settings.media_size }}-media{% endif %}">
-    <div class="sticky grid__item product-single__media-group {{ product_media_width }}{% if section.settings.media_size == 'full' %} product-single__media-group--full{% endif %}" data-product-single-media-group>
+    <div class="grid__item product-single__media-group {{ product_media_width }}{% if section.settings.media_size == 'full' %} product-single__media-group--full{% endif %}" data-product-single-media-group>
       {%- assign featured_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
 
       {%- for media in product.media -%}
