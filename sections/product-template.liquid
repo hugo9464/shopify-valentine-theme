@@ -270,7 +270,8 @@
         </div>
 
         <div class="product-single__description rte">
-          {{ product.description }}
+          {% comment %} {{ product.description }} {% endcomment %}
+          {% render 'product-description' %}
         </div>
 
         {% if section.settings.show_share_buttons %}
