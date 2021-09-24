@@ -67,16 +67,16 @@
   
 --></style>
 <h2>Informations<br></h2>
+<p> {{ product.description }}</p>
 <div class="so-accordion-wrapper">
 <div class="so-tab"><input name="tabs" type="checkbox" id="so-tab-1"> <label for="so-tab-1">Description</label>
 <div class="so-tab-content">
-<p> {{ product.description }}</p>
+<p> {{ product.metafields['informations']['description'] }}</p>
 </div>
 </div>
 <div class="so-tab"><input name="tabs" type="checkbox" id="so-tab-2"> <label for="so-tab-2">Entretien</label>
 <div class="so-tab-content">
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p> {{ product.metafields['informations']['entretien'] }}</p>
 </div>
 </div>
 <div class="so-tab"><input name="tabs" type="checkbox" id="so-tab-3"> <label for="so-tab-3">Livraison et retours</label>
