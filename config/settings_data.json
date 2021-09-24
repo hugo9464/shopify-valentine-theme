@@ -532,6 +532,28 @@
         "settings": {
           "title": "STUDIO"
         }
+      },
+      "collection-art-4": {
+        "type": "collection-art-4",
+        "settings": {
+          "title": "BOTANICA",
+          "collection": "botanica",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "collection-art-5": {
+        "type": "collection-art-5",
+        "settings": {
+          "title": "Collection en vedette",
+          "collection": "",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
       }
     },
     "content_for_index": [
