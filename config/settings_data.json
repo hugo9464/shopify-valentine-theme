@@ -554,6 +554,17 @@
           "show_vendor": false,
           "show_view_all": false
         }
+      },
+      "collection-maroquinerie": {
+        "type": "collection-maroquinerie",
+        "settings": {
+          "title": "MAROQUINERIE",
+          "collection": "maroquinerie",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
       }
     },
     "content_for_index": [
