@@ -370,8 +370,8 @@
       "collection-art-3": {
         "type": "collection-art-3",
         "settings": {
-          "title": "NOURRITURZ",
-          "collection": "accessoires",
+          "title": "Épicerie",
+          "collection": "epicerie",
           "grid": 3,
           "rows": 2,
           "show_vendor": false,
