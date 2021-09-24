@@ -179,23 +179,15 @@
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/slidesurfkaki.jpg",
-              "title": "STUDIO",
-              "button_link": "shopify:\/\/pages\/studio"
+              "title": "MAROQUINERIE",
+              "button_link": "shopify:\/\/pages\/maroquinerie"
             }
           },
-          "1621421438e24ee9b6-1": {
+          "5b7df17b-763c-44fb-b57a-ad3c2ae53650": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/slidepochette.jpg",
-              "title": "SHOP",
-              "button_link": "shopify:\/\/pages\/shop"
-            }
-          },
-          "e572bc00-0cca-4660-8539-90168b667597": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/slide2surf.jpg",
-              "title": "COLLABORATIONS",
+              "image": "shopify:\/\/shop_images\/Mornerougeslide.jpg",
+              "title": "DÉCORATION",
               "button_link": ""
             }
           },
@@ -206,13 +198,21 @@
               "title": "ASSEMBLAGE",
               "button_link": "shopify:\/\/pages\/assemblage-1"
             }
+          },
+          "e572bc00-0cca-4660-8539-90168b667597": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slide2surf.jpg",
+              "title": "ART",
+              "button_link": "shopify:\/\/pages\/art"
+            }
           }
         },
         "block_order": [
           "1621421438e24ee9b6-0",
-          "1621421438e24ee9b6-1",
-          "e572bc00-0cca-4660-8539-90168b667597",
-          "fc397702-35cf-4723-84f6-7a80033d875a"
+          "5b7df17b-763c-44fb-b57a-ad3c2ae53650",
+          "fc397702-35cf-4723-84f6-7a80033d875a",
+          "e572bc00-0cca-4660-8539-90168b667597"
         ],
         "settings": {
           "title": "",
@@ -327,40 +327,22 @@
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/Coraux_c2ce29df-b152-4980-89db-6d7a82e3536d.jpg",
-              "title": "ART",
-              "button_link": ""
+              "title": "COLLABORATIONS",
+              "button_link": "shopify:\/\/pages\/collaborations"
             }
           },
           "163026870000dfee98-1": {
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/14292504_195617570859360_8930890683301664325_n.jpg",
-              "title": "MAROQUINERIE",
-              "button_link": "shopify:\/\/pages\/maroquinerie"
-            }
-          },
-          "163026870000dfee98-2": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Apres.jpg",
-              "title": "DECORATION \/ DESIGN",
-              "button_link": ""
-            }
-          },
-          "ac380e67-ef9d-4d25-8380-c84382b35bde": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/T7A5164-4_copie.jpg",
-              "title": "TOTO",
-              "button_link": ""
+              "title": "STUDIO",
+              "button_link": "shopify:\/\/pages\/studio"
             }
           }
         },
         "block_order": [
           "163026870000dfee98-0",
-          "163026870000dfee98-1",
-          "163026870000dfee98-2",
-          "ac380e67-ef9d-4d25-8380-c84382b35bde"
+          "163026870000dfee98-1"
         ],
         "settings": {
           "title": "",
