@@ -196,7 +196,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/slidebackgammongris.jpg",
               "title": "ASSEMBLAGE",
-              "button_link": "shopify:\/\/pages\/assemblage-1"
+              "button_link": "shopify:\/\/collections\/marqueterie"
             }
           },
           "e572bc00-0cca-4660-8539-90168b667597": {
@@ -547,8 +547,8 @@
       "collection-art-5": {
         "type": "collection-art-5",
         "settings": {
-          "title": "Collection en vedette",
-          "collection": "",
+          "title": "TOTEM",
+          "collection": "totem",
           "grid": 3,
           "rows": 2,
           "show_vendor": false,
