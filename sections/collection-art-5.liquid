@@ -24,6 +24,12 @@
 
   {%- assign product_limit = section.settings.grid | times: section.settings.rows -%}
 
+  {% if collection.description != blank %}
+    <div class="rte collection-description page-width">
+      {{ collection.description }}
+    </div>
+  {% endif %}
+
   <ul class="grid grid--uniform grid--view-items">
     {% for product in collection.products limit: product_limit %}
       <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">
