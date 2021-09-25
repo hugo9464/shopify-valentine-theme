@@ -701,8 +701,7 @@ textarea {
     width: 50%; }
   /* Thirds */
   .medium-up--one-third {
-    width: 33.33333%;
-    height: 403px }
+    width: 33.33333%;}
   .medium-up--two-thirds {
     width: 66.66667%; }
   /* Quarters */
@@ -7150,5 +7149,15 @@ margin-right:0;
 @media only screen and (max-width: 749px){
   .secondary{
     display: block;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .product_infos {
+    overflow: auto;
+  }
+
+  .hover_box {
+    height: 403px;
   }
 }
