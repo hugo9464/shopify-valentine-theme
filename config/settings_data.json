@@ -240,7 +240,7 @@
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/Coraux_281c66b2-2b78-4750-bf0f-3821327f6e90.jpg",
-              "title": "ART",
+              "title": "MAROQUINERIE",
               "button_link": "shopify:\/\/pages\/art"
             }
           },
@@ -248,7 +248,7 @@
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/slidepochette.jpg",
-              "title": "PLATEAUX",
+              "title": "DECORATION",
               "button_link": ""
             }
           },
@@ -256,7 +256,7 @@
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/Mornerougeslide.jpg",
-              "title": "MUR VÉGÉTAL",
+              "title": "ASSEMBLAGE",
               "button_link": ""
             }
           },
@@ -264,7 +264,7 @@
             "type": "text_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/slidebackgammongris.jpg",
-              "title": "MOBILE",
+              "title": "ART",
               "button_link": ""
             }
           }
