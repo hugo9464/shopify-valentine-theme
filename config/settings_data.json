@@ -265,7 +265,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/slidebackgammongris.jpg",
               "title": "ART",
-              "button_link": ""
+              "button_link": "shopify:\/\/pages\/art"
             }
           }
         },
