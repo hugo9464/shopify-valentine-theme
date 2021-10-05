@@ -152,24 +152,17 @@
               "title": "Liens rapides",
               "menu": "footer"
             }
-          },
-          "footer-1": {
-            "type": "newsletter",
-            "settings": {
-              "title": ""
-            }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1"
+          "footer-0"
         ],
         "settings": {
           "show_payment_icons": false,
           "color_footer_bg": "#f6f6f6",
           "color_footer_text": "#333232",
-          "show_locale_selector": false,
-          "show_currency_selector": false
+          "show_currency_selector": false,
+          "show_locale_selector": false
         }
       },
       "1621421438e24ee9b6": {
