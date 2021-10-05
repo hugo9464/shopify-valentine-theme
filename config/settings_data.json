@@ -464,7 +464,7 @@
             "type": "text",
             "settings": {
               "title": "Nous sommes exigeantes",
-              "text": "<p>Chaque coffret a exigé une préparation en amont dans notre atelier parisien afin que votre pièce finale reflète la qualité et l’exigence de la marque Valentine H Despointes. Plusieurs heures de travail ont été nécessaires pour réaliser les éléments qui composent votre coffret. Pour les colibris, cette préparation nous prend en moyenne 5 heures. Dans ces heures sont comprises la refente de chaque pièce de cuir, l’encollage des différentes parties qui constitueront les ailes, les corps, les queues ou encore les feuilles. Chaque élément est ensuite astiquée une technique de sellerie qui consiste à teindre les tranches afin d’avoir une finition de qualité. Les becs et les corps sont minutieusement gainés à la main. Toute cette préparation participe à <\/p>",
+              "text": "<p>Chaque coffret a exigé une préparation en amont dans notre atelier parisien afin que votre pièce finale reflète la qualité et l’exigence de la marque Valentine H Despointes. Plusieurs heures de travail ont été nécessaires pour réaliser les éléments qui composent votre coffret. Pour les colibris, cette préparation nous prend en moyenne 5 heures. Dans ces heures sont comprises la refente de chaque pièce de cuir, l’encollage des différentes parties qui constitueront les ailes, les corps, les queues ou encore les feuilles. Chaque élément est ensuite astiquée une technique de sellerie qui consiste à teindre les tranches afin d’avoir une finition de qualité. Les becs et les corps sont minutieusement gainés à la main. Toute cette préparation participe à <\/p><p><\/p>",
               "width": "100%",
               "alignment": "center",
               "align_text": "left"
@@ -475,8 +475,8 @@
             "settings": {
               "title": "Nous produisons localement",
               "text": "<p>Tous nos prototypes de menuiserie sont fabriqués de manière artisanale par l’ébéniste français Constant Mulet. C’est ensuite La manufacture Jacquemin qui se charge de réaliser notre production dans les montagnes du Jura. <\/p>",
-              "width": "100%",
-              "alignment": "center",
+              "width": "50%",
+              "alignment": "top-middle",
               "align_text": "left"
             }
           },
@@ -484,9 +484,9 @@
             "type": "text",
             "settings": {
               "title": "Une matière noble",
-              "text": "<p>En fonction des arrivages, nous allons également nous approvisionner à la Réserve des arts qui a pour mission de permettre aux rebuts collectés dans les grandes maisons de couture de trouver une seconde vie via le secteur de la culture et la création.<\/p><p><\/p><p><\/p>",
-              "width": "100%",
-              "alignment": "center",
+              "text": "<p>En fonction des arrivages, nous allons également nous approvisionner à la Réserve des arts qui a pour mission de permettre aux rebuts collectés dans les grandes maisons de couture de trouver une seconde vie via le secteur de la culture et la création.<\/p><p><\/p>",
+              "width": "50%",
+              "alignment": "top-middle",
               "align_text": "left"
             }
           },
