@@ -423,10 +423,21 @@
               "alignment": "top-middle",
               "align_text": "center"
             }
+          },
+          "59b6eb38-f726-41c1-8d4e-3fea5ec7c89c": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p><\/p><p>Bien plus qu’un simple coffret de création, Assemblage vous<br\/>initie à la marqueterie haut de gamme : un savoir-faire ancestral trop méconnu du grand public mais désormais accessible à tous grâce à l’ingéniosité d’un duo de passionnées. En un tour de main, assemblez les pièces de cuir colorées, toutes issues des stocks dormant des grandes maisons de couture française, et fabriquez vous-même des objets décoratifs recherchés et stylisés. <\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
           }
         },
         "block_order": [
-          "42b07bf0-9b18-4736-8528-9ed16dc45a25"
+          "42b07bf0-9b18-4736-8528-9ed16dc45a25",
+          "59b6eb38-f726-41c1-8d4e-3fea5ec7c89c"
         ],
         "settings": {
           "title": ""
