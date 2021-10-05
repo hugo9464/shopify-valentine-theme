@@ -493,8 +493,8 @@
           "ec08762d-dbdc-420a-bfaf-bd29e3d012f8": {
             "type": "text",
             "settings": {
-              "title": "Parlez de votre marque",
-              "text": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.<\/p>",
+              "title": "Une matière noble",
+              "text": "<p>En fonction des arrivages, nous allons également nous approvisionner à la Réserve des arts qui a pour mission de permettre aux rebuts collectés dans les grandes maisons de couture de trouver une seconde vie via le secteur de la culture et la création.<\/p>",
               "width": "50%",
               "alignment": "center",
               "align_text": "left"
