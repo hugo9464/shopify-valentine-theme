@@ -479,6 +479,26 @@
               "alignment": "center",
               "align_text": "left"
             }
+          },
+          "6edb9671-3bb7-4896-9816-ed1387f90023": {
+            "type": "text",
+            "settings": {
+              "title": "Nous produisons localement",
+              "text": "<p>Tous nos prototypes de menuiserie sont fabriqués de manière artisanale par l’ébéniste français Constant Mulet. C’est ensuite La manufacture Jacquemin qui se charge de réaliser notre production dans les montagnes du Jura. <\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "ec08762d-dbdc-420a-bfaf-bd29e3d012f8": {
+            "type": "text",
+            "settings": {
+              "title": "Parlez de votre marque",
+              "text": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
           }
         },
         "block_order": [
@@ -488,7 +508,9 @@
           "d2383649-53d5-4070-b262-7f827b3a89c7",
           "ebf8a6a9-7ac7-4272-8563-57a7f2c634c5",
           "164b0bd1-1cd8-4a93-8969-93da25aa8895",
-          "dd2f0420-c3ab-4f60-90e1-46e9c0f004b6"
+          "dd2f0420-c3ab-4f60-90e1-46e9c0f004b6",
+          "6edb9671-3bb7-4896-9816-ed1387f90023",
+          "ec08762d-dbdc-420a-bfaf-bd29e3d012f8"
         ],
         "settings": {
           "title": ""
