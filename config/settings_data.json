@@ -417,7 +417,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p><strong>Lorem Ipsum<\/strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
+              "text": "<p>La marqueterie c'est quoi ?<\/p><p>Un assemblage de matières diverses (bois, nacre, métal, écailles, cuir…),<br\/>aux tons colorés, juxtaposées pour former un dessin, des motifs, un objet. La<br\/>marqueterie est aussi un ouvrage de l’esprit.<\/p>",
               "width": "100%",
               "alignment": "top-middle",
               "align_text": "center"
@@ -428,7 +428,7 @@
           "42b07bf0-9b18-4736-8528-9ed16dc45a25"
         ],
         "settings": {
-          "title": "Assemblage"
+          "title": ""
         }
       },
       "image-link-grid-assemblage": {
