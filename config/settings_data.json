@@ -459,6 +459,16 @@
               "alignment": "bottom-middle",
               "align_text": "right"
             }
+          },
+          "164b0bd1-1cd8-4a93-8969-93da25aa8895": {
+            "type": "text",
+            "settings": {
+              "title": "Un coffret de qualité",
+              "text": "",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
           }
         },
         "block_order": [
@@ -466,7 +476,8 @@
           "59b6eb38-f726-41c1-8d4e-3fea5ec7c89c",
           "3b99a638-7f01-4040-a5ac-547e71efaf14",
           "d2383649-53d5-4070-b262-7f827b3a89c7",
-          "ebf8a6a9-7ac7-4272-8563-57a7f2c634c5"
+          "ebf8a6a9-7ac7-4272-8563-57a7f2c634c5",
+          "164b0bd1-1cd8-4a93-8969-93da25aa8895"
         ],
         "settings": {
           "title": ""
