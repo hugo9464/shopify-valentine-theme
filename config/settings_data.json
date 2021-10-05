@@ -558,6 +558,17 @@
           "show_vendor": false,
           "show_view_all": false
         }
+      },
+      "collection-assemblage": {
+        "type": "collection-assemblage",
+        "settings": {
+          "title": "",
+          "collection": "",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
       }
     },
     "content_for_index": [
