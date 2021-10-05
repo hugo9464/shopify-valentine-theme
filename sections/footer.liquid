@@ -1,15 +1,17 @@
 {%- assign social_icons = false -%}
 {%- assign inline_list = false -%}
 {%- assign locale_selector = false -%}
-{%- assign currency_selector = false -%}
+{%- assign country_selector = false -%}
 {%- assign show_payment_icons = false -%}
 {%- assign show_selectors = false -%}
 
-{%- if section.settings.show_currency_selector and shop.enabled_currencies.size > 1 -%}
-  {%- assign currency_selector = true -%}
+
+{%- assign show_country_selector = section.settings.show_currency_selector  -%}
+{%- if show_country_selector and localization.available_countries.size > 1 -%}
+  {%- assign country_selector = true -%}
 {%- endif -%}
 
-{%- if section.settings.show_locale_selector and shop.published_locales.size > 1 -%}
+{%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
   {%- assign locale_selector = true -%}
 {%- endif -%}
 
@@ -19,7 +21,7 @@
   {%- endunless -%}
 {%- endif -%}
 
-{%- if currency_selector or locale_selector -%}
+{%- if country_selector or locale_selector -%}
   {%- assign show_selectors = true -%}
 {%- endif -%}
 
@@ -138,14 +140,144 @@
 {%- endcapture -%}
 
 <footer class="site-footer critical-hidden" role="contentinfo" data-section-id="{{ section.id }}" data-section-type="footer-section">
+  <div class="page-width">
+    <div class="site-footer__content">
+      {%- for block in section.blocks -%}
 
-  {%- assign socials = "Facebook Twitter Pinterest Instagram Tumblr Snapchat YouTube Vimeo" | split: ' ' -%}
+        <div class="site-footer__item
+                    {% if section.blocks.size == 1 %} site-footer__item--center{% endif %}
+                    {{ footer_item }}
+                    {% if block.type == 'newsletter' and section.blocks.size == 3 %}site-footer-newsletter__one-half{% endif %}"
+             {{ block.shopify_attributes }}>
+          <div class="site-footer__item-inner site-footer__item-inner--{{ block.type }}">
+
+            {%- if block.settings.title -%}
+              <p class="h4">{{ block.settings.title | escape }}</p>
+            {%- endif -%}
+
+            {%- case block.type -%}
+              {%- when 'newsletter' -%}
+                <div class="site-footer__newsletter
+                          {% if section.blocks.size == 1 %} site-footer__single-block--centered{% endif %}">
+                  {%- assign formId = 'ContactFooter' -%}
+                  {% form 'customer', id: formId, novalidate: 'novalidate' %}
+                    {%- if form.posted_successfully? -%}
+                      <p class="form-message form-message--success" tabindex="-1" data-form-status>
+                        {{ 'general.newsletter_form.confirmation' | t }}
+                      </p>
+                    {%- endif -%}
+                    <input type="hidden" name="contact[tags]" value="newsletter">
+                    <div class="input-group {% if form.errors %} input-group--error{% endif %}">
+                      <input type="email"
+                        name="contact[email]"
+                        id="{{ formId }}-email"
+                        class="input-group__field newsletter__input{% if form.errors %} input--error{% endif %}"
+                        value="{{ form.email }}"
+                        placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"
+                        aria-label="{{ 'general.newsletter_form.email_placeholder' | t }}"
+                        aria-required="true"
+                        required
+                        autocorrect="off"
+                        autocapitalize="off"
+                        {% if form.errors %}
+                          aria-invalid="true"
+                          aria-describedby="{{ formId }}-email-error"
+                          data-form-status
+                        {% endif %}>
+                      <span class="input-group__btn">
+                        <button type="submit" class="btn newsletter__submit" name="commit" >
+                          <span class="newsletter__submit-text--large">{{ 'general.newsletter_form.submit' | t }}</span>
+                        </button>
+                      </span>
+                    </div>
+                    {% if form.errors contains 'email' %}
+                      <span id="{{ formId }}-email-error" class="input-error-message">
+                        <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+                        {% include 'icon-error' %}
+                        <span class="site-footer__newsletter-error">{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+                      </span>
+                    {% endif %}
+                  {% endform %}
+                </div>
+
+              {%- when 'text' -%}
+                {%- if block.settings.text != blank -%}
+                  <div class="site-footer__rte
+                              {% if section.blocks.size == 1 %} site-footer__single-block--centered{% endif %}">
+                      {{ block.settings.text }}
+                  </div>
+                {%- endif -%}
+
+              {%- when 'link_list' -%}
+                {%- assign footer_linklist = block.settings.menu -%}
+                  <ul class="site-footer__linklist
+                            {% if inline_list %}list--inline{% endif %}">
+                    {%- for link in linklists[footer_linklist].links -%}
+                      <li class="site-footer__linklist-item">
+                        <a href="{{ link.url }}"
+                          {% if link.current %} aria-current="page"{% endif %}
+                        >
+                          {{ link.title | escape }}
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+
+            {%- endcase -%}
+
+          </div>
+        </div>
+      {%- endfor -%}
+
+      <div class="grid__item small--one-whole {{ copyright_show_class }} site-footer-item-align-right">
+        <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+        <small class="site-footer__copyright-content site-footer__copyright-content--powered-by">| Propulsé par Hugo Faye via Shopify</small>
+      </div>  
+    </div>
+  </div>
+
+  {% comment %} {%- assign socials = "Facebook Twitter Pinterest Instagram Tumblr Snapchat YouTube Vimeo" | split: ' ' -%}
 
   <div class="page-width">
     <div class="grid grid--no-gutters small--text-center grid--footer-float-right">
       {%- if show_selectors -%}
         <div class="grid__item one-half small--one-whole">
           {%- form 'localization', class: 'selectors-form', data-disclosure-form: '' -%}
+            {%- if country_selector -%}
+              <div class="selectors-form__item">
+                <h2 class="visually-hidden" id="country-heading">
+                  {{ 'general.country.dropdown_label' | t }}
+                </h2>
+                {%- assign current_currency_symbol = localization.country.currency.symbol -%}
+                {%- assign current_currency_iso_code = localization.country.currency.iso_code -%}
+                <div class="disclosure" data-disclosure-country>
+                  <button type="button" class="disclosure__toggle" aria-expanded="false" aria-controls="country-list" aria-describedby="country-heading" data-disclosure-toggle>
+                    {%- if current_currency_symbol -%}
+                      {{ localization.country.name }} ({{ current_currency_iso_code }} {{ current_currency_symbol }})
+                    {%- else -%}
+                      {{ localization.country.name }} ({{ current_currency_iso_code }})
+                    {%- endif -%}
+                  </button>
+                  <ul id="country-list" class="disclosure-list" data-disclosure-list>
+                    {% for country in form.available_countries %}
+                      {%- assign currency_symbol = country.currency.symbol -%}
+                      {%- assign currency_iso_code = country.currency.iso_code -%}
+                      <li class="disclosure-list__item {% if country.iso_code == localization.country.iso_code %}disclosure-list__item--current{% endif %}">
+                        <a class="disclosure-list__option" href="#" {% if country.iso_code == localization.country.iso_code %}aria-current="true"{% endif %} data-value="{{ country.iso_code }}" data-disclosure-option>
+                          {%- if currency_symbol -%}
+                            {{ country.name }} ({{ currency_iso_code }} {{ currency_symbol }})
+                          {%- else -%}
+                            {{ country.name }} ({{ currency_iso_code }})
+                          {%- endif -%}
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                  <input type="hidden" name="country_code" id="CountrySelector" value="{{ localization.country.iso_code }}" data-disclosure-input/>
+                </div>
+              </div>
+            {%- endif -%}
+
             {%- if locale_selector -%}
               <div class="selectors-form__item">
                 <h2 class="visually-hidden" id="lang-heading">
@@ -154,42 +286,18 @@
 
                 <div class="disclosure" data-disclosure-locale>
                   <button type="button" class="disclosure__toggle" aria-expanded="false" aria-controls="lang-list" aria-describedby="lang-heading" data-disclosure-toggle>
-                    {{ form.current_locale.endonym_name }}
+                    {{ localization.language.endonym_name }}
                   </button>
                   <ul id="lang-list" class="disclosure-list" data-disclosure-list>
-                    {% for locale in form.available_locales %}
-                      <li class="disclosure-list__item {% if locale.iso_code == form.current_locale.iso_code %}disclosure-list__item--current{% endif %}">
-                        <a class="disclosure-list__option" href="#" lang="{{ locale.iso_code }}" {% if locale.iso_code == form.current_locale.iso_code %}aria-current="true"{% endif %} data-value="{{ locale.iso_code }}" data-disclosure-option>
-                          {{ locale.endonym_name }}
+                    {% for language in localization.available_languages %}
+                      <li class="disclosure-list__item {% if language.iso_code == localization.language.iso_code %}disclosure-list__item--current{% endif %}">
+                        <a class="disclosure-list__option" href="#" lang="{{ language.iso_code }}" {% if language.iso_code == localization.language.iso_code %}aria-current="true"{% endif %} data-value="{{ language.iso_code }}" data-disclosure-option>
+                          {{ language.endonym_name }}
                         </a>
                       </li>
                     {%- endfor -%}
                   </ul>
                   <input type="hidden" name="locale_code" id="LocaleSelector" value="{{ form.current_locale.iso_code }}" data-disclosure-input/>
-                </div>
-              </div>
-            {%- endif -%}
-
-            {%- if currency_selector -%}
-              <div class="selectors-form__item">
-                <h2 class="visually-hidden" id="currency-heading">
-                  {{ 'general.currency.dropdown_label' | t }}
-                </h2>
-
-                <div class="disclosure" data-disclosure-currency>
-                  <button type="button" class="disclosure__toggle" aria-expanded="false" aria-controls="currency-list" aria-describedby="currency-heading" data-disclosure-toggle>
-                    {{ form.current_currency.iso_code }} {%- if form.current_currency.symbol -%}{{ form.current_currency.symbol }}{%- endif -%}
-                  </button>
-                  <ul id="currency-list" class="disclosure-list" data-disclosure-list>
-                    {% for currency in form.available_currencies %}
-                      <li class="disclosure-list__item {% if currency.iso_code == form.current_currency.iso_code %}disclosure-list__item--current{% endif %}">
-                        <a class="disclosure-list__option" href="#" {% if currency.iso_code == form.current_currency.iso_code %}aria-current="true"{% endif %} data-value="{{ currency.iso_code }}" data-disclosure-option>
-                          {{ currency.iso_code }} {%- if currency.symbol -%}{{ currency.symbol }}{%- endif -%}
-                        </a>
-                      </li>
-                    {%- endfor -%}
-                  </ul>
-                  <input type="hidden" name="currency_code" id="CurrencySelector" value="{{ form.current_currency.iso_code }}" data-disclosure-input/>
                 </div>
               </div>
             {%- endif -%}
@@ -246,11 +354,11 @@
       {%- endif -%}
 
       <div class="grid__item small--one-whole {{ copyright_show_class }} site-footer-item-align-right">
-        <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }} |</small>
-        <small class="site-footer__copyright-content site-footer__copyright-content--powered-by">Designed and created by Hugo Faye</small>
+        <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+        <small class="site-footer__copyright-content site-footer__copyright-content--powered-by">{{ powered_by_link }}</small>
       </div>
     </div>
-  </div>
+  </div> {% endcomment %}
 </footer>
 
 
@@ -421,6 +529,83 @@
     {
       "type": "header",
       "content": {
+        "cs": "Selektor země/oblasti",
+        "da": "Land/område-vælger",
+        "de": "Auswahl für Land/Region",
+        "en": "Country/region Selector",
+        "es": "Selector de país/región",
+        "fi": "Maa-/aluevalitsin",
+        "fr": "Sélecteur de pays/région",
+        "it": "Selettore paese/area geografica",
+        "ja": "国/地域セレクター",
+        "ko": "국가/지역 선택기",
+        "nb": "Land-/regionvelger",
+        "nl": "Kiezer voor land/regio",
+        "pl": "Selektor kraju/regionu",
+        "pt-BR": "Seletor de país/região",
+        "pt-PT": "Seletor de país/região",
+        "sv": "Land/region-väljare",
+        "th": "ตัวเลือกประเทศ/ภูมิภาค",
+        "tr": "Ülke/Bölge Seçici",
+        "vi": "Hộp chọn quốc gia/vùng",
+        "zh-CN": "国家/地区选择器",
+        "zh-TW": "國家/地區選擇器"
+      },
+      "info": {
+        "cs": "Pokud chcete přidat zemi nebo oblast, přejděte na [nastavení plateb.](/admin/settings/payments)",
+        "da": "For at tilføje et land/område skal du gå til dine [betalingsindstillinger.](/admin/settings/payments)",
+        "de": "Gehe zu deinen [Zahlungseinstellungen](/admin/settings/payments), um ein Land/eine Region hinzuzufügen.",
+        "en": "To add a country/region, go to your [payment settings.](/admin/settings/payments)",
+        "es": "Para agregar una país/región, ve a tu [configuración de pago.](/admin/settings/payments)",
+        "fi": "Lisää maa/alue siirtymällä omiin [maksuasetuksiisi.](/admin/settings/payments)",
+        "fr": "Pour ajouter un pays/une région, allez dans vos [paramètres de paiement.](/admin/settings/payments)",
+        "it": "Per aggiungere un paese/area geografica, vai a [impostazioni pagamento.](/admin/settings/payments)",
+        "ja": "国/地域を追加するには、[決済設定](/admin/settings/payments) に移動します。",
+        "ko": "국가/지역을 추가하려면 [결제 설정](/admin/settings/payments)(으)로 이동하십시오.",
+        "nb": "For å legge til et land/region må du gå til [betalingsinnstillingene.](/admin/settings/payments)",
+        "nl": "Ga naar je [betaalinstellingen.](/admin/settings/payments) om een land/regio toe te voegen.",
+        "pl": "Aby dodać kraj/region, przejdź do swoich [ustawień płatności.](/admin/settings/payments)",
+        "pt-BR": "Para adicionar um país/região, acesse as [configurações de pagamento.](/admin/settings/payments)",
+        "pt-PT": "Para adicionar um país/região, aceda às [definições de pagamento.](/admin/settings/payments)",
+        "sv": "För att lägga till land/region går du till dina [betalningsinställningar.](/admin/settings/payments)",
+        "th": "หากต้องการเพิ่มประเทศ/ภูมิภาค ให้ไปที่ [การตั้งค่าการชำระเงิน](/admin/settings/payments)",
+        "tr": "Ülke/bölge eklemek için [ödeme ayarlarınıza](/admin/settings/payments) gidin.",
+        "vi": "Để thêm quốc gia/vùng, vào [cài đặt thanh toán.](/admin/settings/payments)",
+        "zh-CN": "若要添加国家/地区，请转到 [支付设置。](/admin/settings/payments)",
+        "zh-TW": "若要新增國家/地區，請前往 [付款設定。](/admin/settings/payments)"
+      }
+    },
+    {
+      "type": "checkbox",
+      "id": "show_currency_selector",
+      "label": {
+        "cs": "Zobrazit selektor země/oblasti",
+        "da": "Vis land/område-vælger",
+        "de": "Auswahl für Land/Region anzeigen",
+        "en": "Show country/region selector",
+        "es": "Mostrar selector de país/región",
+        "fi": "Näytä maa-/aluevalitsin",
+        "fr": "Afficher le sélecteur de pays/région",
+        "it": "Mostra selettore paese/area geografica",
+        "ja": "国/地域セレクターを表示する",
+        "ko": "국가/지역 선택기 표시",
+        "nb": "Vis land-/regionvelger",
+        "nl": "Kiezer voor land/regio weergeven",
+        "pl": "Pokaż selektor kraju/regionu",
+        "pt-BR": "Exibir seletor de país/região",
+        "pt-PT": "Mostrar seletor de país/região",
+        "sv": "Visa land/region-väljare",
+        "th": "แสดงตัวเลือกประเทศ/ภูมิภาค",
+        "tr": "Ülke/bölge seçiciyi göster",
+        "vi": "Hiển thị hộp chọn quốc gia/vùng",
+        "zh-CN": "显示国家/地区选择器",
+        "zh-TW": "顯示國家/地區選擇器"
+      },
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": {
         "cs": "Selektor jazyka",
         "da": "Sprogvælger",
         "de": "Sprachauswahl",
@@ -494,83 +679,6 @@
         "zh-TW": "顯示語言選擇器"
       },
       "default": true
-    },
-    {
-      "type": "header",
-      "content": {
-        "cs": "Výběr měny",
-        "da": "Valutavælger",
-        "de": "Währungsauswahl",
-        "en": "Currency Selector",
-        "es": "Selector de moneda",
-        "fi": "Valuutanvalitsin",
-        "fr": "Sélecteur de devise",
-        "it": "Selettore di valuta",
-        "ja": "通貨セレクター",
-        "ko": "통화 선택기",
-        "nb": "Valutavelger",
-        "nl": "Valutakiezer",
-        "pl": "Selektor walut",
-        "pt-BR": "Seletor de moeda",
-        "pt-PT": "Seletor de Moeda",
-        "sv": "Valutaväljare",
-        "th": "เครื่องมือเลือกสกุลเงิน",
-        "tr": "Para Birimi Seçici",
-        "vi": "Hộp chọn đơn vị tiền tệ",
-        "zh-CN": "货币选择器",
-        "zh-TW": "幣別選擇器"
-      },
-      "info": {
-        "cs": "Pokud chcete přidat měnu, přejděte na [nastavení plateb.](/admin/settings/payments)",
-        "da": "Du kan tilføje en valuta ved at gå til dine [betalingsindstillinger.](/admin/settings/payments)",
-        "de": "Gehe zu deinen [Zahlungseinstellungen](/admin/settings/payments), um eine Währung hinzuzufügen.",
-        "en": "To add a currency, go to your [payment settings.](/admin/settings/payments)",
-        "es": "Para agregar una moneda, ve a tu [configuración de pago.](/admin/settings/payments)",
-        "fi": "Lisää valuutta siirtymällä [maksuasetuksiisi.](/admin/settings/payments)",
-        "fr": "Pour ajouter une devise, allez dans vos [paramètres de paiement.](/admin/settings/payments)",
-        "it": "Per aggiungere una valuta, vai su [impostazioni pagamento.](/admin/settings/payments)",
-        "ja": "通貨を追加するには、[決済設定](/admin/settings/payments) に移動します。",
-        "ko": "통화를 추가하려면 [결제 설정](/admin/settings/payments)(으)로 이동하십시오.",
-        "nb": "For å legge til en valuta, går du til [betalingsinnstillingene.](/admin/settings/payments)",
-        "nl": "Ga naar je [betaalinstellingen.](/admin/settings/payments) om een valuta toe te voegen.",
-        "pl": "Aby dodać walutę, przejdź do swoich [ustawień płatności.](/admin/settings/payments)",
-        "pt-BR": "Para adicionar uma moeda, acesse as [configurações de pagamento.](/admin/settings/payments)",
-        "pt-PT": "Para adicionar uma moeda, aceda às suas [definições de pagamento.](/admin/settings/payments)",
-        "sv": "Gå till [payment settings ](/admin/settings/payments) för att lägga till en valuta.",
-        "th": "หากต้องการเพิ่มสกุลเงิน ให้ไปที่ [การตั้งค่าการชำระเงิน ](/admin/settings/payments)",
-        "tr": "Para birimi seçmek için [ödeme ayarlarınıza](/admin/settings/payments) gidin.",
-        "vi": "Để thêm đơn vị tiền tệ, đến phần [cài đặt thanh toán.](/admin/settings/payments)",
-        "zh-CN": "若要添加货币，请转到 [支付设置。](/admin/settings/payments)",
-        "zh-TW": "若要新增幣別，請前往 [付款設定。](/admin/settings/payments)"
-      }
-    },
-    {
-      "type": "checkbox",
-      "id": "show_currency_selector",
-      "label": {
-        "cs": "Zobrazit selektor měny",
-        "da": "Vis valutavælger",
-        "de": "Währungsauswahl anzeigen",
-        "en": "Show currency selector",
-        "es": "Mostrar el selector de moneda",
-        "fi": "Näytä valuutanvalitsin",
-        "fr": "Afficher le sélecteur de devise",
-        "it": "Mostra selettore valuta",
-        "ja": "通貨セレクターを表示する",
-        "ko": "통화 선택기 표시",
-        "nb": "Vis valutavelger",
-        "nl": "Valutakiezer weergeven",
-        "pl": "Pokaż selektor walut",
-        "pt-BR": "Exibir seletor de moeda",
-        "pt-PT": "Mostrar seletor de moeda",
-        "sv": "Visa valutaväljare",
-        "th": "แสดงเครื่องมือเลือกสกุลเงิน",
-        "tr": "Para birimi seçici göster",
-        "vi": "Hiển thị hộp chọn đơn vị tiền tệ",
-        "zh-CN": "货币选择器显示",
-        "zh-TW": "顯示幣別選擇器"
-      },
-      "default": true
     }
   ],
   "blocks": [
@@ -611,7 +719,7 @@
             "es": "Título",
             "fi": "Otsake",
             "fr": "Titre",
-            "it": "Heading",
+            "it": "Titolo",
             "ja": "見出し",
             "ko": "제목",
             "nb": "Overskrift",
@@ -717,7 +825,7 @@
             "es": "Título",
             "fi": "Otsake",
             "fr": "Titre",
-            "it": "Heading",
+            "it": "Titolo",
             "ja": "見出し",
             "ko": "제목",
             "nb": "Overskrift",
@@ -846,7 +954,7 @@
             "es": "Título",
             "fi": "Otsake",
             "fr": "Titre",
-            "it": "Heading",
+            "it": "Titolo",
             "ja": "見出し",
             "ko": "제목",
             "nb": "Overskrift",
@@ -866,7 +974,7 @@
             "da": "Abonnenter bliver føjet til [kundelisten](/admin/customers?query=&accepts_marketing=1) for \"accepterer markedsføring\".",
             "de": "Abonnenten werden zu deiner Liste „akzeptiert Marketingmaterial“ hinzugefügt [Kundenliste.](/admin/customers?query=&accepts_marketing=1)",
             "en": "Subscribers will be added to your “accepts marketing” [customer list.](/admin/customers?query=&accepts_marketing=1)",
-            "es": "Se añadirá los suscriptores a tu [lista de clientes.](/admin/customers?query=&accepts_marketing=1) \"acepta marketing\".",
+            "es": "Los suscriptores se añadirán a tu [lista de clientes.](/admin/customers?query=&accepts_marketing=1) \"Acepta marketing\".",
             "fi": "Tilaajat lisätään \"hyväksyy markkinointi\" [-asiakasluetteloosi. ](/admin/customers?query=&accepts_marketing=1)",
             "fr": "Les abonnés seront ajoutés à votre [liste de clients](/admin/customers?query=&accepts_marketing=1) « Accepte le marketing ».",
             "it": "Gli iscritti verranno aggiunti al tuo [elenco clienti.](/admin/customers?query=&accepts_marketing=1) «accetta marketing»",
@@ -893,7 +1001,7 @@
             "fi": "Uutiskirje",
             "fr": "Newsletter",
             "it": "Newsletter",
-            "ja": "ニュースレター",
+            "ja": "ニュース レター",
             "ko": "뉴스레터",
             "nb": "Nyhetsbrev",
             "nl": "Nieuwsbrief",
