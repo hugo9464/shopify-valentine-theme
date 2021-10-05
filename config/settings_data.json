@@ -417,7 +417,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p>La marqueterie c'est quoi ?<\/p><p>Un assemblage de matières diverses (bois, nacre, métal, écailles, cuir…),<br\/>aux tons colorés, juxtaposées pour former un dessin, des motifs, un objet. La<br\/>marqueterie est aussi un ouvrage de l’esprit.<\/p>",
+              "text": "<p><strong>La marqueterie c'est quoi ?<\/strong><\/p><p><strong>Un assemblage de matières diverses (bois, nacre, métal, écailles, cuir…),<br\/>aux tons colorés, juxtaposées pour former un dessin, des motifs, un objet. <\/strong><\/p><p><strong>La marqueterie est aussi un ouvrage de l’esprit.<\/strong><\/p>",
               "width": "100%",
               "alignment": "top-middle",
               "align_text": "center"
