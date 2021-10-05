@@ -469,6 +469,16 @@
               "alignment": "center",
               "align_text": "left"
             }
+          },
+          "dd2f0420-c3ab-4f60-90e1-46e9c0f004b6": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p><strong>Nous sommes exigeantes<\/strong><\/p><p>Chaque coffret a exigé une préparation en amont dans notre atelier parisien afin que votre pièce finale reflète la qualité et l’exigence de la marque Valentine H Despointes. Plusieurs heures de travail ont été nécessaires pour réaliser les éléments qui composent votre coffret. Pour les colibris, cette préparation nous prend en moyenne 5 heures. Dans ces heures sont comprises la refente de chaque pièce de cuir, l’encollage des différentes parties qui constitueront les ailes, les corps, les queues ou encore les feuilles. Chaque élément est ensuite astiquée une technique de sellerie qui consiste à teindre les tranches afin d’avoir une finition de qualité. Les becs et les corps sont minutieusement gainés à la main. Toute cette préparation participe à <\/p><p><br\/><br\/><br\/><br\/><br\/><br\/><\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "left"
+            }
           }
         },
         "block_order": [
@@ -477,7 +487,8 @@
           "3b99a638-7f01-4040-a5ac-547e71efaf14",
           "d2383649-53d5-4070-b262-7f827b3a89c7",
           "ebf8a6a9-7ac7-4272-8563-57a7f2c634c5",
-          "164b0bd1-1cd8-4a93-8969-93da25aa8895"
+          "164b0bd1-1cd8-4a93-8969-93da25aa8895",
+          "dd2f0420-c3ab-4f60-90e1-46e9c0f004b6"
         ],
         "settings": {
           "title": ""
