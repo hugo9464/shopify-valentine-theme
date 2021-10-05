@@ -5375,13 +5375,11 @@ hr {
   display: none;
   align-self: center;
   text-align: center;
-  font-size: 0.5em;
+  font-size: 10px;
   line-height: 1em;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border: 1px solid white;
-  border-radius: 2px;
   padding: 0.2rem 0.5rem; }
 
 .price__badge--sale {
@@ -5394,7 +5392,7 @@ hr {
     display: none; }
 
 .price__badge--sold-out {
-  color: var(--color-body-text);
+  color: white;
   border-color: var(--color-body-text); }
   .price--sold-out .price__badge--sold-out {
     display: flex; }
