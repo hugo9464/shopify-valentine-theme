@@ -437,17 +437,17 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Coraux_281c66b2-2b78-4750-bf0f-3821327f6e90.jpg",
               "width": "50%",
-              "alignment": "middle-left"
+              "alignment": "top-left"
             }
           },
           "ebf8a6a9-7ac7-4272-8563-57a7f2c634c5": {
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p>Mais Assemblage ce n’est pas que ça. Faites ressortir l’enfant qui est en vous en participant à la réalisation du décor de votre intérieur. Transformez votre salon en jungle avec le mur végétal, l’œuvre majeur de Valentine H. Despointes. Celui-ci a été retravaillé afin de vous permettre d’être l’acteur majeur de sa réalisation. <\/p><p><br\/><br\/><br\/><br\/><br\/><br\/><\/p>",
+              "text": "<p><\/p><p>Mais Assemblage ce n’est pas que ça. Faites ressortir l’enfant qui est en vous en participant à la réalisation du décor de votre intérieur. Transformez votre salon en jungle avec le mur végétal, l’œuvre majeur de Valentine H. Despointes. Celui-ci a été retravaillé afin de vous permettre d’être l’acteur majeur de sa réalisation. <\/p><p><br\/><br\/><br\/><br\/><br\/><br\/><\/p>",
               "width": "50%",
-              "alignment": "bottom-middle",
-              "align_text": "right"
+              "alignment": "center",
+              "align_text": "left"
             }
           },
           "dd2f0420-c3ab-4f60-90e1-46e9c0f004b6": {
