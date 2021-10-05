@@ -2960,9 +2960,6 @@ hr {
   .no-js .product-featured-media {
     position: relative; }
 
-.zoomImg {
-  background-color: var(--color-body); }
-
 @media only screen and (max-width: 749px) {
   .product-single__media-group {
     margin-bottom: 30px; }
