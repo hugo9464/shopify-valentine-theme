@@ -571,9 +571,9 @@
             "settings": {
               "title": "CITATION BLABLABLA BLABLABLA",
               "text": "",
-              "width": "50%",
+              "width": "100%",
               "alignment": "center",
-              "align_text": "left"
+              "align_text": "center"
             }
           },
           "d991cf1a-ff8e-4494-b1ef-15c0d97c3895": {
