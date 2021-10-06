@@ -629,6 +629,16 @@
               "width": "33%",
               "alignment": "top-left"
             }
+          },
+          "6f588fb6-bbdf-4e89-a854-bce811b363e6": {
+            "type": "text",
+            "settings": {
+              "title": "Parlez de votre marque",
+              "text": "<p>Depuis la création de l’atelier, nous avons à cœur de transmettre notre savoir-faire avec des professionnels ainsi que des particuliers. C’est pour cela que nous avons mis en place des ateliers d’initiation à la marqueterie et à la gainerie. <\/p><p>Nous proposons également des séminaires en entreprises afin de renforcer l’esprit d’équipe et d’acquérir des connaissances sur le cuir et le monde de l’artisanat.  <\/p><p><\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
           }
         },
         "block_order": [
@@ -638,7 +648,8 @@
           "54c80e1a-ec2b-44cd-a4b4-0c72fa8a1a14",
           "6393103d-7d8b-4ea4-b2bd-3394511c8406",
           "6f055b8d-2790-4f9b-a89e-6ca79f85d0ef",
-          "6dfabdf9-d74d-4df6-8a91-78f791970e49"
+          "6dfabdf9-d74d-4df6-8a91-78f791970e49",
+          "6f588fb6-bbdf-4e89-a854-bce811b363e6"
         ],
         "settings": {
           "title": ""
