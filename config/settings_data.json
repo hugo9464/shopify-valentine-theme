@@ -576,7 +576,7 @@
             "type": "text",
             "settings": {
               "title": "Création d’objet",
-              "text": "<p>Cela peut aller de la simple fabrication d’une maquette ou d’un prototype au suivi global du projet, design et gestion de la production compris, en passant par la fabrication de petites séries. <\/p>",
+              "text": "<p>L’objectif du studio est de vous assister dans le processus d’élaboration en créant à vos côtés des produits innovants dans le respect de l’artisanat traditionnel.  Cela peut aller de la simple fabrication d’une maquette ou d’un prototype au suivi global du projet, design et gestion de la production compris, en passant par la fabrication de petites séries. <\/p>",
               "width": "66%",
               "alignment": "top-middle",
               "align_text": "left"
