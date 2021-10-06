@@ -758,6 +758,17 @@
           "button_label": "",
           "button_link": ""
         }
+      },
+      "collection-art-6": {
+        "type": "collection-art-6",
+        "settings": {
+          "title": "Nautilus",
+          "collection": "nautilus",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
       }
     },
     "content_for_index": [
