@@ -1334,7 +1334,7 @@ h6,
   font-weight: var(--font-weight-header); }
   @media only screen and (min-width: 750px) {
     .mega-subtitle--large {
-      font-size: calc(((var(--font-size-base) + 8) / (var(--font-size-base))) * 1em); } }
+      font-size: calc(((var(--font-size-base) + 20) / (var(--font-size-base))) * 1em); } }
 
 /*============================================================================
   Animation Classes and Keyframes
