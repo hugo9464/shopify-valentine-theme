@@ -1239,7 +1239,8 @@ h6,
 /*================ RTE headings ================*/
 .rte {
   color: var(--color-body-text);
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  text-align: justify; }
   .rte:last-child {
     margin-bottom: 0; }
   .rte h1,
