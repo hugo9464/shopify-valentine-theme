@@ -555,18 +555,11 @@
       "custom-content-studio": {
         "type": "custom-content-studio",
         "blocks": {
-          "6fbb8c59-9974-4d78-b20d-a078f43203a0": {
-            "type": "image",
-            "settings": {
-              "width": "50%",
-              "alignment": "center"
-            }
-          },
           "d991cf1a-ff8e-4494-b1ef-15c0d97c3895": {
             "type": "text",
             "settings": {
-              "title": "",
-              "text": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.<\/p>",
+              "title": "Notre savoir-faire",
+              "text": "<p>Le cuir est une source d’inspiration infini. Tout est réalisable avec ce matériaux à condition d’en maitriser les subtilités. Ce support est l’un des plus nobles qui puisse exister et il est de notre devoir d’en ressortir ce qu’il y a de plus beau. C’est pour cela que nous mettons tout en œuvre pour sans cesse nous améliorer dans le savoir-faire emblématique du studio – la marqueterie afin de créer des pièces toujours plus uniques les unes que les autres. Un savoir-faire traditionnel modernisé par des couleurs vives et un design contemporain.<\/p>",
               "width": "50%",
               "alignment": "center",
               "align_text": "left"
@@ -582,6 +575,13 @@
               "align_text": "left"
             }
           },
+          "6fbb8c59-9974-4d78-b20d-a078f43203a0": {
+            "type": "image",
+            "settings": {
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
           "340e1323-a4c8-4abb-a728-b51b145256b4": {
             "type": "image",
             "settings": {
@@ -591,13 +591,13 @@
           }
         },
         "block_order": [
-          "6fbb8c59-9974-4d78-b20d-a078f43203a0",
           "d991cf1a-ff8e-4494-b1ef-15c0d97c3895",
           "64f475a6-95df-43a0-8346-d28348d6dc0e",
+          "6fbb8c59-9974-4d78-b20d-a078f43203a0",
           "340e1323-a4c8-4abb-a728-b51b145256b4"
         ],
         "settings": {
-          "title": "STUDIO"
+          "title": ""
         }
       },
       "collection-art-4": {
