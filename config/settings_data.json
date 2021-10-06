@@ -592,21 +592,21 @@
               "align_text": "left"
             }
           },
-          "6dfabdf9-d74d-4df6-8a91-78f791970e49": {
-            "type": "image",
-            "settings": {
-              "width": "50%",
-              "alignment": "center"
-            }
-          },
           "6393103d-7d8b-4ea4-b2bd-3394511c8406": {
             "type": "text",
             "settings": {
               "title": "Développement de produit à grande échelle pour l’hôtellerie ou la restauration",
               "text": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.<\/p>",
-              "width": "50%",
+              "width": "66%",
               "alignment": "center",
-              "align_text": "left"
+              "align_text": "right"
+            }
+          },
+          "6dfabdf9-d74d-4df6-8a91-78f791970e49": {
+            "type": "image",
+            "settings": {
+              "width": "33%",
+              "alignment": "top-left"
             }
           }
         },
@@ -615,8 +615,8 @@
           "6fbb8c59-9974-4d78-b20d-a078f43203a0",
           "64f475a6-95df-43a0-8346-d28348d6dc0e",
           "54c80e1a-ec2b-44cd-a4b4-0c72fa8a1a14",
-          "6dfabdf9-d74d-4df6-8a91-78f791970e49",
-          "6393103d-7d8b-4ea4-b2bd-3394511c8406"
+          "6393103d-7d8b-4ea4-b2bd-3394511c8406",
+          "6dfabdf9-d74d-4df6-8a91-78f791970e49"
         ],
         "settings": {
           "title": ""
