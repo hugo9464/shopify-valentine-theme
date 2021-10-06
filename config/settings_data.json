@@ -597,7 +597,7 @@
             "type": "text",
             "settings": {
               "title": "Direction artistique",
-              "text": "<p>Notre studio a la possibilité de vous accompagner dans le développement artistique de votre projet. Forte d’une sensibilité pour l’art, notre équipe sera à même de vous conseiller au mieux dans l’identité que vous souhaitez donner à votre produit ou votre collection.<\/p>",
+              "text": "<p>Notre studio a la possibilité de vous accompagner dans le développement artistique de votre projet. Forte d’une sensibilité pour l’art, notre équipe sera à même de vous conseiller au mieux dans l’identité que vous souhaitez insuffler à votre produit ou votre collection. <\/p>",
               "width": "66%",
               "alignment": "center",
               "align_text": "left"
