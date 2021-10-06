@@ -1200,7 +1200,8 @@ h6,
 h3, .h3 {
   font-size: calc(((var(--font-size-header)) / (var(--font-size-base))) * 1em);
   text-transform: none;
-  letter-spacing: 0; }
+  letter-spacing: 0;
+  font-weight: bold }
   @media only screen and (max-width: 749px) {
     h3, .h3 {
       font-size: calc(((var(--font-h3-mobile)) / (var(--font-size-base))) * 1em); } }
