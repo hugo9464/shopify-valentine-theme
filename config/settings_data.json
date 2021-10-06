@@ -665,8 +665,9 @@
           "a5176b8c-69f8-4d29-91f5-0677cd63475a": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/slidepochette.jpg",
               "width": "50%",
-              "alignment": "center"
+              "alignment": "top-middle"
             }
           }
         },
