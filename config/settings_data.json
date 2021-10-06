@@ -565,21 +565,21 @@
               "align_text": "left"
             }
           },
-          "64f475a6-95df-43a0-8346-d28348d6dc0e": {
-            "type": "text",
-            "settings": {
-              "title": "Parlez de votre marque",
-              "text": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.<\/p>",
-              "width": "50%",
-              "alignment": "center",
-              "align_text": "left"
-            }
-          },
           "6fbb8c59-9974-4d78-b20d-a078f43203a0": {
             "type": "image",
             "settings": {
               "width": "50%",
               "alignment": "center"
+            }
+          },
+          "64f475a6-95df-43a0-8346-d28348d6dc0e": {
+            "type": "text",
+            "settings": {
+              "title": "Notre identité au service de vos créations",
+              "text": "",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
             }
           },
           "340e1323-a4c8-4abb-a728-b51b145256b4": {
@@ -592,8 +592,8 @@
         },
         "block_order": [
           "d991cf1a-ff8e-4494-b1ef-15c0d97c3895",
-          "64f475a6-95df-43a0-8346-d28348d6dc0e",
           "6fbb8c59-9974-4d78-b20d-a078f43203a0",
+          "64f475a6-95df-43a0-8346-d28348d6dc0e",
           "340e1323-a4c8-4abb-a728-b51b145256b4"
         ],
         "settings": {
