@@ -876,11 +876,21 @@
       "custom-content-apropos": {
         "type": "custom-content-apropos",
         "blocks": {
+          "fe6f0f6e-4e96-4b01-8091-fcd3010e1a34": {
+            "type": "text",
+            "settings": {
+              "title": "L'équipe",
+              "text": "",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          },
           "78833e1c-e4c4-43cf-95d4-edc1867c2258": {
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p><br\/><br\/><br\/><\/p><p>Valentine H Despointes et Mélanie Durand, ce sont deux passionnées de marqueterie avec deux trajectoires différentes, terreau de leur complémentarité. Tandis que Valentine découvre dès l’enfance l’univers d’excellence des métiers d’arts en suivant au quotidien son père, sellier automobile de luxe ; Mélanie se lance dans des études de langues et de communication. Très vite, elle s’intéressera à la maroquinerie et entrera aux ateliers Grégoire, école dont Valentine, après une formation de styliste, sortira diplômée en sellerie-maroquinerie. Forte de son apprentissage, elle retournera dans l’atelier familial pour expérimenter son nouveau métier. Quant à Mélanie, elle continuera son cursus au lycée de la mode de Cholet pendant 2 ans où elle apprendra les techniques artisanales tout en aiguisant son esprit de conception et son expertise en développement. Chacune à leur manière, elles travaillent le cuir : Valentine aime autant gainer de ses mains des objets chinés pour leur donner un second souffle que créer des pièces colorées et ludiques. Mélanie n’a de cesse de mêler les différents savoir-faire et se passionne pour les matières. Lors de leur rencontre en 2018, elles ont une certitude: unir leurs compétences pour créer des objets décoratifs et surprenants. Le studio réunit l’exotisme inspirant de Valentine et la perspicacité créative de Mélanie en un lieu unique. <\/p><p><br\/><br\/><br\/><br\/><br\/><br\/><\/p>",
+              "text": "<p><br\/><\/p><p>Valentine H Despointes et Mélanie Durand, ce sont deux passionnées de marqueterie avec deux trajectoires différentes, terreau de leur complémentarité. Tandis que Valentine découvre dès l’enfance l’univers d’excellence des métiers d’arts en suivant au quotidien son père, sellier automobile de luxe ; Mélanie se lance dans des études de langues et de communication. Très vite, elle s’intéressera à la maroquinerie et entrera aux ateliers Grégoire, école dont Valentine, après une formation de styliste, sortira diplômée en sellerie-maroquinerie. Forte de son apprentissage, elle retournera dans l’atelier familial pour expérimenter son nouveau métier. Quant à Mélanie, elle continuera son cursus au lycée de la mode de Cholet pendant 2 ans où elle apprendra les techniques artisanales tout en aiguisant son esprit de conception et son expertise en développement. Chacune à leur manière, elles travaillent le cuir : Valentine aime autant gainer de ses mains des objets chinés pour leur donner un second souffle que créer des pièces colorées et ludiques. Mélanie n’a de cesse de mêler les différents savoir-faire et se passionne pour les matières. Lors de leur rencontre en 2018, elles ont une certitude: unir leurs compétences pour créer des objets décoratifs et surprenants. Le studio réunit l’exotisme inspirant de Valentine et la perspicacité créative de Mélanie en un lieu unique. <br\/><br\/><\/p>",
               "width": "50%",
               "alignment": "center",
               "align_text": "left"
@@ -912,6 +922,7 @@
           }
         },
         "block_order": [
+          "fe6f0f6e-4e96-4b01-8091-fcd3010e1a34",
           "78833e1c-e4c4-43cf-95d4-edc1867c2258",
           "173735bd-e2b0-4c0a-af32-257a78fbe3a7",
           "ffdf7792-d3e2-4eca-a042-8792096e0bef",
