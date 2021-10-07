@@ -820,6 +820,17 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "d9c302f8-a071-4b00-8dea-ec367b2f94ce": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/IBABA.jpg",
+              "title": "Ibaba Rwanda, 2019",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
@@ -828,7 +839,8 @@
           "89615235-a596-4417-94f2-02fa96b54939",
           "5e6ac3cc-9a0d-40ec-9647-10f8412fcca4",
           "104d8989-76fd-4cda-b311-c2f5bea9a163",
-          "2e8c2af6-7c7f-4486-9838-9ef397586ed0"
+          "2e8c2af6-7c7f-4486-9838-9ef397586ed0",
+          "d9c302f8-a071-4b00-8dea-ec367b2f94ce"
         ],
         "settings": {
           "title": "",
