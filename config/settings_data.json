@@ -748,6 +748,21 @@
       },
       "custom-content-collaborations": {
         "type": "custom-content-collaborations",
+        "blocks": {
+          "7f59d6ee-b0eb-4348-bdb1-5cc973ae1608": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          }
+        },
+        "block_order": [
+          "7f59d6ee-b0eb-4348-bdb1-5cc973ae1608"
+        ],
         "settings": {
           "title": "Ils nous ont fait confiance"
         }
@@ -870,6 +885,27 @@
           "text": "<p>Utilisez la superposition de texte pour donner un aperçu de votre marque à vos clients. Utilisez une image et du texte qui se rapportent au style et à l'histoire de votre marque.<\/p>",
           "button_label": "",
           "button_link": ""
+        }
+      },
+      "custom-content-apropos": {
+        "type": "custom-content-apropos",
+        "blocks": {
+          "78833e1c-e4c4-43cf-95d4-edc1867c2258": {
+            "type": "text",
+            "settings": {
+              "title": "Parlez de votre marque",
+              "text": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          }
+        },
+        "block_order": [
+          "78833e1c-e4c4-43cf-95d4-edc1867c2258"
+        ],
+        "settings": {
+          "title": "Contenu personnalisé"
         }
       }
     },
