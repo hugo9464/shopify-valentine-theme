@@ -814,8 +814,9 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "title": "Ajouter un titre ou un slogan",
-              "text": "<p>Partagez des articles de blog, des produits ou des promotions avec vos clients. Utilisez ce texte pour décrire vos produits, partager des détails sur leur disponibilité ou leur style, ou encore pour afficher des FAQ et avis récents.<\/p>",
+              "image": "shopify:\/\/shop_images\/FL2018.jpg",
+              "title": "Fauré Lepage, 2018",
+              "text": "",
               "button_label": "",
               "button_link": ""
             }
