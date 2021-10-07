@@ -748,86 +748,6 @@
       },
       "custom-content-collaborations": {
         "type": "custom-content-collaborations",
-        "blocks": {
-          "7eb967f4-b20d-4eea-970d-7da40b4d555f": {
-            "type": "blog",
-            "settings": {
-              "blog": "",
-              "cover_image": "shopify:\/\/shop_images\/IBABA.jpg",
-              "image_size": "large",
-              "description": "<p>Ibaba Rwanda, 2019<\/p>",
-              "show_number_articles": false,
-              "width": "33%",
-              "alignment": "center"
-            }
-          },
-          "f6e92658-ed99-421b-8401-b869fd3f3e40": {
-            "type": "blog",
-            "settings": {
-              "blog": "",
-              "cover_image": "shopify:\/\/shop_images\/SPECIES_Felicie_Eymard_38.jpg",
-              "image_size": "large",
-              "description": "<p>Félicie Eymard, 2020<\/p>",
-              "show_number_articles": false,
-              "width": "33%",
-              "alignment": "center"
-            }
-          },
-          "253f6549-ee84-4663-aa5b-7f28eaf401dc": {
-            "type": "blog",
-            "settings": {
-              "blog": "",
-              "cover_image": "shopify:\/\/shop_images\/FL2020.jpg",
-              "image_size": "large",
-              "description": "<p>Description de votre blog.<\/p>",
-              "show_number_articles": false,
-              "width": "33%",
-              "alignment": "center"
-            }
-          },
-          "53fe067f-b28f-4c82-876a-121baa4b537e": {
-            "type": "blog",
-            "settings": {
-              "blog": "",
-              "cover_image": "shopify:\/\/shop_images\/FL2019.jpg",
-              "image_size": "large",
-              "description": "<p>Fauré Lepage, 2020<\/p>",
-              "show_number_articles": true,
-              "width": "33%",
-              "alignment": "center"
-            }
-          },
-          "d01dad67-6196-4a1a-a80b-da1f5cc50179": {
-            "type": "blog",
-            "settings": {
-              "blog": "",
-              "image_size": "medium",
-              "description": "<p>Description de votre blog.<\/p>",
-              "show_number_articles": true,
-              "width": "25%",
-              "alignment": "center"
-            }
-          },
-          "22276925-3062-4272-97c2-fd5ac1ce7d30": {
-            "type": "blog",
-            "settings": {
-              "blog": "",
-              "image_size": "medium",
-              "description": "<p>Description de votre blog.<\/p>",
-              "show_number_articles": true,
-              "width": "25%",
-              "alignment": "center"
-            }
-          }
-        },
-        "block_order": [
-          "7eb967f4-b20d-4eea-970d-7da40b4d555f",
-          "f6e92658-ed99-421b-8401-b869fd3f3e40",
-          "253f6549-ee84-4663-aa5b-7f28eaf401dc",
-          "53fe067f-b28f-4c82-876a-121baa4b537e",
-          "d01dad67-6196-4a1a-a80b-da1f5cc50179",
-          "22276925-3062-4272-97c2-fd5ac1ce7d30"
-        ],
         "settings": {
           "title": "Contenu personnalisé"
         }
@@ -873,6 +793,87 @@
           "1633607335c6d0c473-0",
           "1633607335c6d0c473-1",
           "1633607335c6d0c473-2"
+        ],
+        "settings": {
+          "title": "Colonnes de texte et images",
+          "align_text": "left"
+        }
+      },
+      "feature-columns-collaborations": {
+        "type": "feature-columns-collaborations",
+        "blocks": {
+          "6140bce9-6a4a-4825-8ee4-a81a6cc2400b": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/VHDOEUFRSVP-2.jpg",
+              "title": "Ajouter un titre ou un slogan",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "e8424d45-df21-4224-9846-11cc608e3db1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/BaccaratCollaboration2021.jpg",
+              "title": "Ajouter un titre ou un slogan",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "89615235-a596-4417-94f2-02fa96b54939": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/SPECIES_Felicie_Eymard_38.jpg",
+              "title": "Ajouter un titre ou un slogan",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "5e6ac3cc-9a0d-40ec-9647-10f8412fcca4": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/FL2019.jpg",
+              "title": "Ajouter un titre ou un slogan",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "104d8989-76fd-4cda-b311-c2f5bea9a163": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Ajouter un titre ou un slogan",
+              "text": "<p>Partagez des articles de blog, des produits ou des promotions avec vos clients. Utilisez ce texte pour décrire vos produits, partager des détails sur leur disponibilité ou leur style, ou encore pour afficher des FAQ et avis récents.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "2e8c2af6-7c7f-4486-9838-9ef397586ed0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Ajouter un titre ou un slogan",
+              "text": "<p>Partagez des articles de blog, des produits ou des promotions avec vos clients. Utilisez ce texte pour décrire vos produits, partager des détails sur leur disponibilité ou leur style, ou encore pour afficher des FAQ et avis récents.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "6140bce9-6a4a-4825-8ee4-a81a6cc2400b",
+          "e8424d45-df21-4224-9846-11cc608e3db1",
+          "89615235-a596-4417-94f2-02fa96b54939",
+          "5e6ac3cc-9a0d-40ec-9647-10f8412fcca4",
+          "104d8989-76fd-4cda-b311-c2f5bea9a163",
+          "2e8c2af6-7c7f-4486-9838-9ef397586ed0"
         ],
         "settings": {
           "title": "Colonnes de texte et images",
