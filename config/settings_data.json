@@ -174,7 +174,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/slidesurfkaki.jpg",
               "title": "MAROQUINERIE",
-              "button_link": "shopify:\/\/pages\/maroquinerie"
+              "button_link": "shopify:\/\/collections\/maroquinerie"
             }
           },
           "5b7df17b-763c-44fb-b57a-ad3c2ae53650": {
@@ -716,7 +716,7 @@
           "title": "MAROQUINERIE",
           "collection": "maroquinerie",
           "grid": 3,
-          "rows": 2,
+          "rows": 5,
           "show_vendor": false,
           "show_view_all": false
         }
