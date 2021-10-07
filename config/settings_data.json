@@ -190,7 +190,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/slidebackgammongris.jpg",
               "title": "ASSEMBLAGE",
-              "button_link": "shopify:\/\/pages\/assemblage-1"
+              "button_link": "shopify:\/\/collections\/marqueterie"
             }
           },
           "e572bc00-0cca-4660-8539-90168b667597": {
@@ -746,28 +746,100 @@
           "button_link": ""
         }
       },
-      "hero-studio": {
-        "type": "hero-studio",
+      "custom-content-collaborations": {
+        "type": "custom-content-collaborations",
+        "blocks": {
+          "1554860f-ab2c-4cc4-a332-98136fb3c7b5": {
+            "type": "blog",
+            "settings": {
+              "blog": "",
+              "cover_image": "shopify:\/\/shop_images\/BaccaratCollaboration2021.jpg",
+              "image_size": "large",
+              "description": "<p>Baccarat, 2021<\/p>",
+              "show_number_articles": false,
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          },
+          "7eb967f4-b20d-4eea-970d-7da40b4d555f": {
+            "type": "blog",
+            "settings": {
+              "blog": "",
+              "cover_image": "shopify:\/\/shop_images\/IBABA.jpg",
+              "image_size": "large",
+              "description": "<p>Ibaba Rwanda, 2019<\/p>",
+              "show_number_articles": false,
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "f6e92658-ed99-421b-8401-b869fd3f3e40": {
+            "type": "blog",
+            "settings": {
+              "blog": "",
+              "image_size": "medium",
+              "description": "<p>Description de votre blog.<\/p>",
+              "show_number_articles": true,
+              "width": "25%",
+              "alignment": "center"
+            }
+          },
+          "253f6549-ee84-4663-aa5b-7f28eaf401dc": {
+            "type": "blog",
+            "settings": {
+              "blog": "",
+              "image_size": "medium",
+              "description": "<p>Description de votre blog.<\/p>",
+              "show_number_articles": true,
+              "width": "25%",
+              "alignment": "center"
+            }
+          },
+          "53fe067f-b28f-4c82-876a-121baa4b537e": {
+            "type": "blog",
+            "settings": {
+              "blog": "",
+              "image_size": "medium",
+              "description": "<p>Description de votre blog.<\/p>",
+              "show_number_articles": true,
+              "width": "25%",
+              "alignment": "center"
+            }
+          },
+          "d01dad67-6196-4a1a-a80b-da1f5cc50179": {
+            "type": "blog",
+            "settings": {
+              "blog": "",
+              "image_size": "medium",
+              "description": "<p>Description de votre blog.<\/p>",
+              "show_number_articles": true,
+              "width": "25%",
+              "alignment": "center"
+            }
+          },
+          "22276925-3062-4272-97c2-fd5ac1ce7d30": {
+            "type": "blog",
+            "settings": {
+              "blog": "",
+              "image_size": "medium",
+              "description": "<p>Description de votre blog.<\/p>",
+              "show_number_articles": true,
+              "width": "25%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1554860f-ab2c-4cc4-a332-98136fb3c7b5",
+          "7eb967f4-b20d-4eea-970d-7da40b4d555f",
+          "f6e92658-ed99-421b-8401-b869fd3f3e40",
+          "253f6549-ee84-4663-aa5b-7f28eaf401dc",
+          "53fe067f-b28f-4c82-876a-121baa4b537e",
+          "d01dad67-6196-4a1a-a80b-da1f5cc50179",
+          "22276925-3062-4272-97c2-fd5ac1ce7d30"
+        ],
         "settings": {
-          "alignment": "center",
-          "hero_layout": "full_width",
-          "hero_size": "medium",
-          "text_size": "medium",
-          "title": "Image avec calque texte",
-          "text": "<p>Utilisez la superposition de texte pour donner un aperçu de votre marque à vos clients. Utilisez une image et du texte qui se rapportent au style et à l'histoire de votre marque.<\/p>",
-          "button_label": "",
-          "button_link": ""
-        }
-      },
-      "collection-art-6": {
-        "type": "collection-art-6",
-        "settings": {
-          "title": "Nautilus",
-          "collection": "nautilus",
-          "grid": 3,
-          "rows": 2,
-          "show_vendor": false,
-          "show_view_all": false
+          "title": "Contenu personnalisé"
         }
       }
     },
