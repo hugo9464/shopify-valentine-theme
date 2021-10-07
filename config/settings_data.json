@@ -569,8 +569,8 @@
           "fd42f5ff-1e57-416a-af76-f8037e193585": {
             "type": "text",
             "settings": {
-              "title": "CITATION BLABLABLA BLABLABLA",
-              "text": "",
+              "title": "\"A l'oeuvre, on connaît l'artisan.\"",
+              "text": "<p>Jean de la Fontaine<\/p>",
               "width": "100%",
               "alignment": "center",
               "align_text": "center"
