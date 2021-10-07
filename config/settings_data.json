@@ -748,23 +748,8 @@
       },
       "custom-content-collaborations": {
         "type": "custom-content-collaborations",
-        "blocks": {
-          "7f59d6ee-b0eb-4348-bdb1-5cc973ae1608": {
-            "type": "text",
-            "settings": {
-              "title": "",
-              "text": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.<\/p>",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "left"
-            }
-          }
-        },
-        "block_order": [
-          "7f59d6ee-b0eb-4348-bdb1-5cc973ae1608"
-        ],
         "settings": {
-          "title": "Ils nous ont fait confiance"
+          "title": ""
         }
       },
       "feature-columns-collaborations": {
