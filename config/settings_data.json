@@ -749,18 +749,6 @@
       "custom-content-collaborations": {
         "type": "custom-content-collaborations",
         "blocks": {
-          "1554860f-ab2c-4cc4-a332-98136fb3c7b5": {
-            "type": "blog",
-            "settings": {
-              "blog": "",
-              "cover_image": "shopify:\/\/shop_images\/BaccaratCollaboration2021.jpg",
-              "image_size": "large",
-              "description": "<p>Baccarat, 2021<\/p>",
-              "show_number_articles": false,
-              "width": "33%",
-              "alignment": "top-middle"
-            }
-          },
           "7eb967f4-b20d-4eea-970d-7da40b4d555f": {
             "type": "blog",
             "settings": {
@@ -833,7 +821,6 @@
           }
         },
         "block_order": [
-          "1554860f-ab2c-4cc4-a332-98136fb3c7b5",
           "7eb967f4-b20d-4eea-970d-7da40b4d555f",
           "f6e92658-ed99-421b-8401-b869fd3f3e40",
           "253f6549-ee84-4663-aa5b-7f28eaf401dc",
@@ -844,11 +831,57 @@
         "settings": {
           "title": "Contenu personnalisé"
         }
+      },
+      "1633607335c6d0c473": {
+        "type": "feature-columns",
+        "blocks": {
+          "1633607335c6d0c473-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/BaccaratCollaboration2021.jpg",
+              "title": "Baccarat, 2020",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1633607335c6d0c473-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Ajouter un titre ou un slogan",
+              "text": "<p>Partagez des articles de blog, des produits ou des promotions avec vos clients. Utilisez ce texte pour décrire vos produits, partager des détails sur leur disponibilité ou leur style, ou encore pour afficher des FAQ et avis récents.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1633607335c6d0c473-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Ajouter un titre ou un slogan",
+              "text": "<p>Partagez des articles de blog, des produits ou des promotions avec vos clients. Utilisez ce texte pour décrire vos produits, partager des détails sur leur disponibilité ou leur style, ou encore pour afficher des FAQ et avis récents.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1633607335c6d0c473-0",
+          "1633607335c6d0c473-1",
+          "1633607335c6d0c473-2"
+        ],
+        "settings": {
+          "title": "Colonnes de texte et images",
+          "align_text": "left"
+        }
       }
     },
     "content_for_index": [
       "1621421438e24ee9b6",
-      "163026870000dfee98"
+      "163026870000dfee98",
+      "1633607335c6d0c473"
     ]
   },
   "presets": {
