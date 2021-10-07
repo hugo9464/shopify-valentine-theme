@@ -749,7 +749,7 @@
       "custom-content-collaborations": {
         "type": "custom-content-collaborations",
         "settings": {
-          "title": ""
+          "title": "Ils nous ont fait confiance"
         }
       },
       "feature-columns-collaborations": {
@@ -857,6 +857,19 @@
         "settings": {
           "title": "",
           "align_text": "left"
+        }
+      },
+      "hero-studio": {
+        "type": "hero-studio",
+        "settings": {
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "Image avec calque texte",
+          "text": "<p>Utilisez la superposition de texte pour donner un aperçu de votre marque à vos clients. Utilisez une image et du texte qui se rapportent au style et à l'histoire de votre marque.<\/p>",
+          "button_label": "",
+          "button_link": ""
         }
       }
     },
