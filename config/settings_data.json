@@ -172,7 +172,7 @@
           "1621421438e24ee9b6-0": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/slidesurfkaki.jpg",
+              "image": "shopify:\/\/shop_images\/petitemarointro.jpg",
               "title": "MAROQUINERIE",
               "button_link": "shopify:\/\/collections\/maroquinerie"
             }
@@ -930,6 +930,17 @@
         ],
         "settings": {
           "title": ""
+        }
+      },
+      "collection-art-6": {
+        "type": "collection-art-6",
+        "settings": {
+          "title": "Collection en vedette",
+          "collection": "",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
         }
       }
     },
