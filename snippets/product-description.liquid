@@ -1,95 +1,45 @@
 {% assign informations = product.metafields.informations %}
 
-
-<!-- Begin Accordion Snippet -->
-<style><!--
-.so-tab {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    border-bottom: black;
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-  }
-  .so-tab label {
-    position: relative;
-    display: block;
-    padding: 15px;
-    line-height: normal;
-    cursor: pointer;
-  }
-  .so-tab input {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-  }
-  .so-tab-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height .35s;
-  }
-  /* :checked */
-  .so-tab input:checked ~ .so-tab-content {
-    max-height: none;
-  }
-  /* Icon */
-  .so-tab label::after {
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: block;
-    -webkit-transition: all .35s;
-    -o-transition: all .35s;
-    transition: all .35s;
-    margin-top: 15px;
-  }
-  .so-tab input[type=checkbox] + label::after {
-    content: ">";
-  }
-  .so-tab input[type=radio] + label::after {
-    content: "\25BC";
-  }
-  .so-tab input[type=checkbox]:checked + label::after {
-    transform: rotate(90deg);
-  }
-  .so-tab input[type=radio]:checked + label::after {
-    transform: rotateX(90deg);
-  }
-
-  .so-accordion-wrapper {
-    border-top: black;
-    border-top-style: solid;
-    border-top-width: thin;
-  }
-
-  @media only screen and (min-width: 750px) {
-    .so-accordion-wrapper {
-        width: 75%;
-    }
-  }
-
-    @media only screen and (max-width: 749px) {
-    .so-accordion-wrapper {
-        width: 100%;
-    }
-  }
-  
---></style>
-<p> {{ product.description }}</p>
-<div class="so-accordion-wrapper">
-<div class="so-tab"><input name="tabs" type="checkbox" id="so-tab-1"> <label for="so-tab-1">Description</label>
-<div class="so-tab-content">
-<p> {{ informations.description }} </p>
+<div class="tab-customize">
+  <button class="tablinks-cus" onclick="openTab(event, 'tab-1')" id="tab-cus-active" >Description</button>
+  <button class="tablinks-cus" onclick="openTab(event, 'tab-2')">Détails</button>
+  <button class="tablinks-cus" onclick="openTab(event, 'tab-3')">Livraison et retours</button>
 </div>
+<!-- Tab content -->
+<div id="tab-1" class="tabcontent-cus">
+  {{ product.description }}
 </div>
-<div class="so-tab"><input name="tabs" type="checkbox" id="so-tab-2"> <label for="so-tab-2">Entretien</label>
-<div class="so-tab-content">
-<p> {{ informations.entretien }}</p>
+<div id="tab-2" class="tabcontent-cus ">
+  {{ informations.details }}
 </div>
+<div id="tab-3" class="tabcontent-cus ">
+  {{ informations.livraison }}
 </div>
-<div class="so-tab"><input name="tabs" type="checkbox" id="so-tab-3"> <label for="so-tab-3">Livraison et retours</label>
-<div class="so-tab-content">
-<p> {{ informations.livraison }} </p>
-</div>
-</div>
-</div>
+<style>
+.tab-customize {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.tab-customize button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+.tab-customize button:hover {
+  background-color: #ddd;
+}
+.tab-customize button.active {
+  background-color: #ccc;
+}
+.tabcontent-cus {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
