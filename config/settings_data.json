@@ -460,16 +460,6 @@
               "align_text": "left"
             }
           },
-          "ec08762d-dbdc-420a-bfaf-bd29e3d012f8": {
-            "type": "text",
-            "settings": {
-              "title": "Une matière noble",
-              "text": "<p>En fonction des arrivages, nous allons également nous approvisionner à la Réserve des arts qui a pour mission de permettre aux rebuts collectés dans les grandes maisons de couture de trouver une seconde vie via le secteur de la culture et la création.<\/p><p><\/p>",
-              "width": "50%",
-              "alignment": "top-middle",
-              "align_text": "left"
-            }
-          },
           "6a1639a9-01df-4437-91c6-e7b662a80559": {
             "type": "image",
             "settings": {
@@ -484,6 +474,16 @@
               "image": "shopify:\/\/shop_images\/panier1.jpg",
               "width": "50%",
               "alignment": "center"
+            }
+          },
+          "ec08762d-dbdc-420a-bfaf-bd29e3d012f8": {
+            "type": "text",
+            "settings": {
+              "title": "Une matière noble",
+              "text": "<p>En fonction des arrivages, nous allons également nous approvisionner à la Réserve des arts qui a pour mission de permettre aux rebuts collectés dans les grandes maisons de couture de trouver une seconde vie via le secteur de la culture et la création.<\/p><p><\/p>",
+              "width": "50%",
+              "alignment": "top-middle",
+              "align_text": "left"
             }
           },
           "eca37e4d-4c2d-4807-b932-8ae853b861a3": {
@@ -503,9 +503,9 @@
           "d2383649-53d5-4070-b262-7f827b3a89c7",
           "dd2f0420-c3ab-4f60-90e1-46e9c0f004b6",
           "6edb9671-3bb7-4896-9816-ed1387f90023",
-          "ec08762d-dbdc-420a-bfaf-bd29e3d012f8",
           "6a1639a9-01df-4437-91c6-e7b662a80559",
           "a0bf8df0-34d3-4231-9c2c-50dd51a4ee37",
+          "ec08762d-dbdc-420a-bfaf-bd29e3d012f8",
           "eca37e4d-4c2d-4807-b932-8ae853b861a3"
         ],
         "settings": {
