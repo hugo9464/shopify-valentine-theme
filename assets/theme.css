@@ -2756,8 +2756,7 @@ hr {
 
 /*================ Add to cart form ================*/
 .product-form {
-  width: auto;
-  padding-top: 2rem; }
+  width: auto; }
 
 .product-form__controls-group {
   display: flex;

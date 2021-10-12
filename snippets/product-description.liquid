@@ -1,12 +1,12 @@
 {% assign informations = product.metafields.informations %}
 
 <div class="tab-customize">
-  <button class="tablinks-cus" onclick="openTab(event, 'tab-1')" id="tab-cus-active" >Description</button>
+  <button class="tablinks-cus active" onclick="openTab(event, 'tab-1')" id="tab-cus-active" >Description</button>
   <button class="tablinks-cus" onclick="openTab(event, 'tab-2')">Détails</button>
   <button class="tablinks-cus" onclick="openTab(event, 'tab-3')">Livraison et retours</button>
 </div>
 <!-- Tab content -->
-<div id="tab-1" class="tabcontent-cus">
+<div id="tab-1" class="tabcontent-cus" style="display: block;">
   {{ product.description }}
 </div>
 <div id="tab-2" class="tabcontent-cus ">
