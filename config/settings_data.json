@@ -627,8 +627,8 @@
           "6393103d-7d8b-4ea4-b2bd-3394511c8406": {
             "type": "text",
             "settings": {
-              "title": "Développement de produit pour l’hôtellerie et la restauration",
-              "text": "<p>Suivi de production, sourcing des matières et des fabricants, respect des délais de livraison, notre équipe est en mesure de vous offrir ses services. Notre studio vous propose des pièces de maroquinerie personnalisées et exclusives au service des plus grands hôtels et restaurants.<\/p>",
+              "title": "Développement de produits pour l’hôtellerie et la restauration",
+              "text": "<p>Suivi de production, sourcing des matières et des fabricants, respect des délais de livraison, notre équipe est en mesure de vous offrir ses services. <\/p><p>Notre studio vous propose des pièces de maroquinerie personnalisées et exclusives au service des plus grands hôtels et restaurants.<\/p>",
               "width": "50%",
               "alignment": "top-middle",
               "align_text": "center"
