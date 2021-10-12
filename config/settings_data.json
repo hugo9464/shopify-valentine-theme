@@ -575,7 +575,7 @@
           "6fbb8c59-9974-4d78-b20d-a078f43203a0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Coraux_281c66b2-2b78-4750-bf0f-3821327f6e90.jpg",
+              "image": "shopify:\/\/shop_images\/DSC04784.jpg",
               "width": "50%",
               "alignment": "center"
             }
@@ -616,6 +616,14 @@
               "alignment": "center"
             }
           },
+          "19ea25cc-1b4b-449c-9dbd-787b535946a2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/panier1.jpg",
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
           "6393103d-7d8b-4ea4-b2bd-3394511c8406": {
             "type": "text",
             "settings": {
@@ -634,6 +642,13 @@
               "width": "50%",
               "alignment": "center",
               "align_text": "center"
+            }
+          },
+          "cf0ee700-14e8-4e65-afc9-b93e99134b9c": {
+            "type": "image",
+            "settings": {
+              "width": "50%",
+              "alignment": "center"
             }
           },
           "471773d3-7d60-4e0e-8c28-03867d1b2946": {
@@ -662,8 +677,10 @@
           "64f475a6-95df-43a0-8346-d28348d6dc0e",
           "6f055b8d-2790-4f9b-a89e-6ca79f85d0ef",
           "f47f4239-a20f-4031-ba20-66d4b1a1df18",
+          "19ea25cc-1b4b-449c-9dbd-787b535946a2",
           "6393103d-7d8b-4ea4-b2bd-3394511c8406",
           "6f588fb6-bbdf-4e89-a854-bce811b363e6",
+          "cf0ee700-14e8-4e65-afc9-b93e99134b9c",
           "471773d3-7d60-4e0e-8c28-03867d1b2946",
           "a5176b8c-69f8-4d29-91f5-0677cd63475a"
         ],
