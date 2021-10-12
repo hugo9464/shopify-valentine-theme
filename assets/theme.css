@@ -2750,10 +2750,6 @@ hr {
 .featured-product__price {
   font-size: 1.25em; }
 
-.product__policies {
-  margin: 0.4rem 0 1rem 0;
-  font-size: calc(((var(--font-size-base) - 1) / (var(--font-size-base))) * 1em); }
-
 /*================ Add to cart form ================*/
 .product-form {
   width: auto; }
