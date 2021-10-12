@@ -598,16 +598,6 @@
               "align_text": "center"
             }
           },
-          "6393103d-7d8b-4ea4-b2bd-3394511c8406": {
-            "type": "text",
-            "settings": {
-              "title": "Développement de produit pour l’hôtellerie et la restauration",
-              "text": "<p>Suivi de production, sourcing des matières et des fabricants, respect des délais de livraison, notre équipe est en mesure de vous offrir ses services. Notre studio vous propose des pièces de maroquinerie personnalisées et exclusives au service des plus grands hôtels et restaurants.<\/p>",
-              "width": "50%",
-              "alignment": "top-middle",
-              "align_text": "center"
-            }
-          },
           "6f055b8d-2790-4f9b-a89e-6ca79f85d0ef": {
             "type": "text",
             "settings": {
@@ -621,8 +611,19 @@
           "f47f4239-a20f-4031-ba20-66d4b1a1df18": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/IBABA.jpg",
               "width": "50%",
               "alignment": "center"
+            }
+          },
+          "6393103d-7d8b-4ea4-b2bd-3394511c8406": {
+            "type": "text",
+            "settings": {
+              "title": "Développement de produit pour l’hôtellerie et la restauration",
+              "text": "<p>Suivi de production, sourcing des matières et des fabricants, respect des délais de livraison, notre équipe est en mesure de vous offrir ses services. Notre studio vous propose des pièces de maroquinerie personnalisées et exclusives au service des plus grands hôtels et restaurants.<\/p>",
+              "width": "50%",
+              "alignment": "top-middle",
+              "align_text": "center"
             }
           },
           "6f588fb6-bbdf-4e89-a854-bce811b363e6": {
@@ -659,9 +660,9 @@
           "6fbb8c59-9974-4d78-b20d-a078f43203a0",
           "6dfabdf9-d74d-4df6-8a91-78f791970e49",
           "64f475a6-95df-43a0-8346-d28348d6dc0e",
-          "6393103d-7d8b-4ea4-b2bd-3394511c8406",
           "6f055b8d-2790-4f9b-a89e-6ca79f85d0ef",
           "f47f4239-a20f-4031-ba20-66d4b1a1df18",
+          "6393103d-7d8b-4ea4-b2bd-3394511c8406",
           "6f588fb6-bbdf-4e89-a854-bce811b363e6",
           "471773d3-7d60-4e0e-8c28-03867d1b2946",
           "a5176b8c-69f8-4d29-91f5-0677cd63475a"
