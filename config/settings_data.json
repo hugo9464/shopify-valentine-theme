@@ -562,16 +562,6 @@
       "custom-content-studio": {
         "type": "custom-content-studio",
         "blocks": {
-          "fd42f5ff-1e57-416a-af76-f8037e193585": {
-            "type": "text",
-            "settings": {
-              "title": "\"A l'oeuvre, on connaît l'artisan.\"",
-              "text": "<p>Jean de la Fontaine<\/p>",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "center"
-            }
-          },
           "d991cf1a-ff8e-4494-b1ef-15c0d97c3895": {
             "type": "text",
             "settings": {
@@ -668,7 +658,6 @@
           }
         },
         "block_order": [
-          "fd42f5ff-1e57-416a-af76-f8037e193585",
           "d991cf1a-ff8e-4494-b1ef-15c0d97c3895",
           "6fbb8c59-9974-4d78-b20d-a078f43203a0",
           "64f475a6-95df-43a0-8346-d28348d6dc0e",
