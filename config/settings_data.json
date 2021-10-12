@@ -414,16 +414,6 @@
       "custom-content-assemblage": {
         "type": "custom-content-assemblage",
         "blocks": {
-          "0640391b-4093-405c-894c-062e5ef4f1ad": {
-            "type": "text",
-            "settings": {
-              "title": "\"Dans chaque enfant il y a un artiste. Le problème est de savoir comment rester un artiste en grandissant.\"",
-              "text": "<p>Pablo Picasso<\/p><p><\/p>",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "center"
-            }
-          },
           "59b6eb38-f726-41c1-8d4e-3fea5ec7c89c": {
             "type": "text",
             "settings": {
@@ -502,7 +492,6 @@
           }
         },
         "block_order": [
-          "0640391b-4093-405c-894c-062e5ef4f1ad",
           "59b6eb38-f726-41c1-8d4e-3fea5ec7c89c",
           "3b99a638-7f01-4040-a5ac-547e71efaf14",
           "d2383649-53d5-4070-b262-7f827b3a89c7",
