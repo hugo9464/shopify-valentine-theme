@@ -580,12 +580,20 @@
               "alignment": "center"
             }
           },
+          "6dfabdf9-d74d-4df6-8a91-78f791970e49": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/14292504_195617570859360_8930890683301664325_n.jpg",
+              "width": "50%",
+              "alignment": "top-left"
+            }
+          },
           "64f475a6-95df-43a0-8346-d28348d6dc0e": {
             "type": "text",
             "settings": {
               "title": "Création d’objet",
               "text": "<p>L’objectif du studio est de vous assister dans le processus d’élaboration en créant à vos côtés des produits innovants dans le respect de l’artisanat traditionnel. Cela peut aller de la simple fabrication d’une maquette ou d’un prototype au suivi global du projet, design et gestion de la production compris, en passant par la fabrication de petites séries. Toute la partie prototypage est développée et réalisée à l’atelier ce qui garantit un haut niveau de qualité. Une relation d’échange est mise en place pour s’assurer que vos besoins et questionnements soient pleinement pris en compte.<\/p>",
-              "width": "100%",
+              "width": "50%",
               "alignment": "top-middle",
               "align_text": "center"
             }
@@ -598,14 +606,6 @@
               "width": "100%",
               "alignment": "center",
               "align_text": "center"
-            }
-          },
-          "6dfabdf9-d74d-4df6-8a91-78f791970e49": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/14292504_195617570859360_8930890683301664325_n.jpg",
-              "width": "50%",
-              "alignment": "top-left"
             }
           },
           "6f055b8d-2790-4f9b-a89e-6ca79f85d0ef": {
@@ -660,9 +660,9 @@
         "block_order": [
           "d991cf1a-ff8e-4494-b1ef-15c0d97c3895",
           "6fbb8c59-9974-4d78-b20d-a078f43203a0",
+          "6dfabdf9-d74d-4df6-8a91-78f791970e49",
           "64f475a6-95df-43a0-8346-d28348d6dc0e",
           "54c80e1a-ec2b-44cd-a4b4-0c72fa8a1a14",
-          "6dfabdf9-d74d-4df6-8a91-78f791970e49",
           "6f055b8d-2790-4f9b-a89e-6ca79f85d0ef",
           "6393103d-7d8b-4ea4-b2bd-3394511c8406",
           "6f588fb6-bbdf-4e89-a854-bce811b363e6",
