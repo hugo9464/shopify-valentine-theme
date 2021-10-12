@@ -7155,3 +7155,7 @@ margin-right:0;
     height: 403px;
   }
 }
+
+.smart-tabs-navigation-li-active {
+  background-color: #cb2027;
+}
