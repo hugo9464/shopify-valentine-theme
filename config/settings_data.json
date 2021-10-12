@@ -864,7 +864,7 @@
           "hero_size": "large",
           "text_size": "large",
           "title": "Le Studio",
-          "text": "",
+          "text": "<p><em>\"A l'oeuvre, on connaît l'artisan\"<\/em><\/p><p><em>Jean de la Fontaine<\/em><\/p>",
           "button_label": "",
           "button_link": ""
         }
