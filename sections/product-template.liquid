@@ -145,13 +145,7 @@
             {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
           </div>
 
-          <div class="product-single__description rte">
-            {% comment %} {{ product.description }} {% endcomment %}
-            {% render 'product-description' %}
-          </div>
-
-
-          {%- if informations.couleurPrincipale != blank %}
+                    {%- if informations.couleurPrincipale != blank %}
           <div>
             <div class="variantColor primaryColor"  style="background-color: {{ informations.couleurPrincipale }};"></div>
             <div class="variantColor"  style="background-color: {{ informations.couleurSecondaire }};">
@@ -248,6 +242,12 @@
               </div>
             </div>
           {% endform %}
+
+          <div class="product-single__description rte">
+            {% comment %} {{ product.description }} {% endcomment %}
+            {% render 'product-description' %}
+          </div>
+
         </div>
 
         {%- comment -%}
