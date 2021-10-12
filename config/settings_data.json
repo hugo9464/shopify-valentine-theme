@@ -647,8 +647,17 @@
           "cf0ee700-14e8-4e65-afc9-b93e99134b9c": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/petitemarointro_4eadc519-275e-4a0b-8ed7-35af11322b09.jpg",
               "width": "50%",
               "alignment": "center"
+            }
+          },
+          "a5176b8c-69f8-4d29-91f5-0677cd63475a": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PMintro.jpg",
+              "width": "50%",
+              "alignment": "top-middle"
             }
           },
           "471773d3-7d60-4e0e-8c28-03867d1b2946": {
@@ -659,14 +668,6 @@
               "width": "50%",
               "alignment": "bottom-middle",
               "align_text": "center"
-            }
-          },
-          "a5176b8c-69f8-4d29-91f5-0677cd63475a": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/slidepochette.jpg",
-              "width": "50%",
-              "alignment": "top-middle"
             }
           }
         },
@@ -681,8 +682,8 @@
           "6393103d-7d8b-4ea4-b2bd-3394511c8406",
           "6f588fb6-bbdf-4e89-a854-bce811b363e6",
           "cf0ee700-14e8-4e65-afc9-b93e99134b9c",
-          "471773d3-7d60-4e0e-8c28-03867d1b2946",
-          "a5176b8c-69f8-4d29-91f5-0677cd63475a"
+          "a5176b8c-69f8-4d29-91f5-0677cd63475a",
+          "471773d3-7d60-4e0e-8c28-03867d1b2946"
         ],
         "settings": {
           "title": ""
