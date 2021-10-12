@@ -1,3 +1,7 @@
+{% assign informations = product.metafields.informations %}
+{%- assign secondary = all_products[product.metafields.informations.produitSecondaire] -%}
+
+
 <div class="product-template__container page-width"
   id="ProductSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
@@ -145,6 +149,16 @@
             {% comment %} {{ product.description }} {% endcomment %}
             {% render 'product-description' %}
           </div>
+
+
+          {%- if informations.couleurPrincipale != blank %}
+          <div>
+            <div class="variantColor primaryColor"  style="background-color: {{ informations.couleurPrincipale }};"></div>
+            <div class="variantColor"  style="background-color: {{ informations.couleurSecondaire }};">
+              <a href="{{ secondary.url }}" class="fill-div"></a>
+            </div>
+          </div>
+          {%- endif -%}
 
           {% capture "form_classes" -%}
             product-form product-form-{{ section.id }}

@@ -7150,3 +7150,24 @@ margin-right:0;
     height: 403px;
   }
 }
+
+.variantColor {
+    margin-left: 5px;
+    width: 32px;
+    height: 32px;
+    font-size: 0;
+    line-height: 0;
+    display: inline-block;
+    border-radius: 32px;
+}
+
+.primaryColor {
+  border: 1px solid #000;
+}
+
+a.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
