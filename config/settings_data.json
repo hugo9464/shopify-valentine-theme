@@ -591,20 +591,10 @@
           "64f475a6-95df-43a0-8346-d28348d6dc0e": {
             "type": "text",
             "settings": {
-              "title": "Création d’objet et direction artistique",
+              "title": "Direction artistique et Création d’objet",
               "text": "<p>Notre studio a la possibilité de vous accompagner dans le développement artistique de votre projet. Forte d’une sensibilité pour l’art, notre équipe sera à même de vous conseiller au mieux dans l’identité que vous souhaitez insuffler à votre produit ou votre collection.<\/p><p>L’objectif du studio est de vous assister dans le processus d’élaboration en créant à vos côtés des produits innovants dans le respect de l’artisanat traditionnel. Cela peut aller de la simple fabrication d’une maquette ou d’un prototype au suivi global du projet, design et gestion de la production compris, en passant par la fabrication de petites séries. Toute la partie prototypage est développée et réalisée à l’atelier ce qui garantit un haut niveau de qualité. Une relation d’échange est mise en place pour s’assurer que vos besoins et questionnements soient pleinement pris en compte.<\/p>",
               "width": "50%",
               "alignment": "top-middle",
-              "align_text": "center"
-            }
-          },
-          "54c80e1a-ec2b-44cd-a4b4-0c72fa8a1a14": {
-            "type": "text",
-            "settings": {
-              "title": "Direction artistique",
-              "text": "<p>Notre studio a la possibilité de vous accompagner dans le développement artistique de votre projet. Forte d’une sensibilité pour l’art, notre équipe sera à même de vous conseiller au mieux dans l’identité que vous souhaitez insuffler à votre produit ou votre collection. <\/p><p><\/p>",
-              "width": "50%",
-              "alignment": "center",
               "align_text": "center"
             }
           },
@@ -669,7 +659,6 @@
           "6fbb8c59-9974-4d78-b20d-a078f43203a0",
           "6dfabdf9-d74d-4df6-8a91-78f791970e49",
           "64f475a6-95df-43a0-8346-d28348d6dc0e",
-          "54c80e1a-ec2b-44cd-a4b4-0c72fa8a1a14",
           "6393103d-7d8b-4ea4-b2bd-3394511c8406",
           "6f055b8d-2790-4f9b-a89e-6ca79f85d0ef",
           "f47f4239-a20f-4031-ba20-66d4b1a1df18",
