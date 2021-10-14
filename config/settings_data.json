@@ -358,7 +358,7 @@
           "grid": 3,
           "rows": 2,
           "show_vendor": false,
-          "show_view_all": true
+          "show_view_all": false
         }
       },
       "collection-art-3": {
