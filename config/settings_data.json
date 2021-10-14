@@ -1,8 +1,9 @@
 {
   "current": {
     "image_overlay_opacity": 0,
-    "type_header_font": "avenir_next_n3",
+    "type_header_font": "avenir_next_n4",
     "type_header_base_size": 26,
+    "type_base_font": "avenir_next_n4",
     "type_base_size": 15,
     "social_instagram_link": "https:\/\/www.instagram.com\/valentinehdespointes\/",
     "favicon": "shopify:\/\/shop_images\/favicon.jpg",
