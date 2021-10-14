@@ -7152,7 +7152,7 @@ margin-right:0;
 }
 
 .variantColor {
-    margin-left: 5px;
+    margin-right: 5px;
     width: 32px;
     height: 32px;
     font-size: 0;
@@ -7174,4 +7174,23 @@ a.fill-div {
 
 .tabcontent-cus p {
   margin: 0 0 0px;
+}
+
+.product-color {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 14px 0px 14px 0px;
+  border-color: #c7c7c7;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  margin-top: 10px;
+}
+
+.product-color-value {
+  margin-left: 22px;
+}
+
+.color-block {
+  margin-bottom: 49px;
 }

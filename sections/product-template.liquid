@@ -149,8 +149,15 @@
             {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
           </div>
 
+          {%- if product.metafields.informations.nom1 != blank %}
+            <div class="product-color">
+              <div>Couleur</div>
+              <div class="product-color-value">{{ product.metafields.informations.nom1 }}</div>
+            </div>
+          {%- endif -%}
+
           {%- if product.metafields.informations.couleur1 != blank %}
-          <div>
+          <div class="color-block">
             <div class="variantColor primaryColor"  style="background-color: {{ product.metafields.informations.couleur1 }};"></div>
             <div class="variantColor"  style="background-color: {{ product.metafields.informations.couleur2 }};">
               <a href="{{ produit2.url }}" class="fill-div"></a>
