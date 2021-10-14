@@ -356,7 +356,7 @@
           "title": "KACHINA",
           "collection": "kachinas",
           "grid": 3,
-          "rows": 2,
+          "rows": 5,
           "show_vendor": false,
           "show_view_all": false
         }
@@ -684,7 +684,7 @@
           "title": "BOTANICA",
           "collection": "botanica",
           "grid": 3,
-          "rows": 2,
+          "rows": 5,
           "show_vendor": false,
           "show_view_all": false
         }
@@ -695,7 +695,7 @@
           "title": "TOTEM",
           "collection": "totem",
           "grid": 3,
-          "rows": 2,
+          "rows": 5,
           "show_vendor": false,
           "show_view_all": false
         }
