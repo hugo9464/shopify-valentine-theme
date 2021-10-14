@@ -2308,7 +2308,6 @@ hr {
     background-color: rgba(0, 0, 0, 0.6); }
 
 .grid--view-items {
-  overflow: auto;
   margin-bottom: -35px; }
 
 .grid-view-item {
