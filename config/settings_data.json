@@ -859,6 +859,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
+              "image": "shopify:\/\/shop_images\/21_07_21_ALICE_FOURNIER6881.jpg",
               "title": "Ajouter un titre ou un slogan",
               "text": "<p>Partagez des articles de blog, des produits ou des promotions avec vos clients. Utilisez ce texte pour décrire vos produits, partager des détails sur leur disponibilité ou leur style, ou encore pour afficher des FAQ et avis récents.<\/p>",
               "button_label": "",
