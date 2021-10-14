@@ -843,6 +843,17 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "36046cb7-27ff-4978-b695-a5e07a8fd643": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Capture_d_ecran_2021-10-07_a_19.37.55.png",
+              "title": "Ajouter un titre ou un slogan",
+              "text": "<p>Partagez des articles de blog, des produits ou des promotions avec vos clients. Utilisez ce texte pour décrire vos produits, partager des détails sur leur disponibilité ou leur style, ou encore pour afficher des FAQ et avis récents.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
@@ -853,7 +864,8 @@
           "104d8989-76fd-4cda-b311-c2f5bea9a163",
           "2e8c2af6-7c7f-4486-9838-9ef397586ed0",
           "d9c302f8-a071-4b00-8dea-ec367b2f94ce",
-          "25b3218a-866f-4ed5-9636-9bab4a8c130b"
+          "25b3218a-866f-4ed5-9636-9bab4a8c130b",
+          "36046cb7-27ff-4978-b695-a5e07a8fd643"
         ],
         "settings": {
           "title": "",
