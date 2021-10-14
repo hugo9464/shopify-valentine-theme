@@ -485,16 +485,6 @@
               "alignment": "top-middle",
               "align_text": "left"
             }
-          },
-          "eca37e4d-4c2d-4807-b932-8ae853b861a3": {
-            "type": "text",
-            "settings": {
-              "title": "Bienvenue dans l’univers fantastique et coloré du coffret Assemblage !",
-              "text": "",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "center"
-            }
           }
         },
         "block_order": [
@@ -505,8 +495,7 @@
           "6edb9671-3bb7-4896-9816-ed1387f90023",
           "a0bf8df0-34d3-4231-9c2c-50dd51a4ee37",
           "6a1639a9-01df-4437-91c6-e7b662a80559",
-          "ec08762d-dbdc-420a-bfaf-bd29e3d012f8",
-          "eca37e4d-4c2d-4807-b932-8ae853b861a3"
+          "ec08762d-dbdc-420a-bfaf-bd29e3d012f8"
         ],
         "settings": {
           "title": ""
