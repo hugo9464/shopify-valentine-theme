@@ -949,10 +949,10 @@
       "collection-art-6": {
         "type": "collection-art-6",
         "settings": {
-          "title": "Collection en vedette",
-          "collection": "",
+          "title": "Nautilus",
+          "collection": "nautilus",
           "grid": 3,
-          "rows": 5,
+          "rows": 2,
           "show_vendor": false,
           "show_view_all": false
         }
