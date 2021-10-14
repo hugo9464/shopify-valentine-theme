@@ -1,5 +1,9 @@
 {% assign informations = product.metafields.informations %}
-{%- assign secondary = all_products[product.metafields.informations.produitSecondaire] -%}
+{%- assign produit2 = all_products[product.metafields.informations.produit2] -%}
+{%- assign produit3 = all_products[product.metafields.informations.produit3] -%}
+{%- assign produit4 = all_products[product.metafields.informations.produit4] -%}
+{%- assign produit5 = all_products[product.metafields.informations.produit5] -%}
+{%- assign produit6 = all_products[product.metafields.informations.produit6] -%}
 
 
 <div class="product-template__container page-width"
@@ -145,12 +149,37 @@
             {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
           </div>
 
-                    {%- if informations.couleurPrincipale != blank %}
+          {%- if product.metafields.informations.couleur1 != blank %}
           <div>
-            <div class="variantColor primaryColor"  style="background-color: {{ informations.couleurPrincipale }};"></div>
-            <div class="variantColor"  style="background-color: {{ informations.couleurSecondaire }};">
-              <a href="{{ secondary.url }}" class="fill-div"></a>
+            <div class="variantColor primaryColor"  style="background-color: {{ product.metafields.informations.couleur1 }};"></div>
+            <div class="variantColor"  style="background-color: {{ product.metafields.informations.couleur2 }};">
+              <a href="{{ produit2.url }}" class="fill-div"></a>
             </div>
+
+            {%- if product.metafields.informations.couleur3 != blank %}
+              <div class="variantColor"  style="background-color: {{ product.metafields.informations.couleur3 }};">
+              <a href="{{ produit3.url }}" class="fill-div"></a>
+            </div>
+            {%- endif -%}
+
+            {%- if product.metafields.informations.couleur4 != blank %}
+              <div class="variantColor"  style="background-color: {{ product.metafields.informations.couleur4 }};">
+              <a href="{{ produit4.url }}" class="fill-div"></a>
+            </div>
+            {%- endif -%}
+
+            {%- if product.metafields.informations.couleur3 != blank %}
+              <div class="variantColor"  style="background-color: {{ product.metafields.informations.couleur5 }};">
+              <a href="{{ produit5.url }}" class="fill-div"></a>
+            </div>
+            {%- endif -%}
+
+            {%- if product.metafields.informations.couleur3 != blank %}
+              <div class="variantColor"  style="background-color: {{ product.metafields.informations.couleur6 }};">
+              <a href="{{ produit6.url }}" class="fill-div"></a>
+            </div>
+            {%- endif -%}
+
           </div>
           {%- endif -%}
 
