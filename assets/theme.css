@@ -2864,7 +2864,7 @@ hr {
   padding-left: 5px;
   padding-right: 5px;
   white-space: normal;
-  margin-top: 0;
+  margin-top: 50px;
   margin-bottom: 10px;
   min-height: 44px; }
   .product-single--small-media .product-form__cart-submit, .product-single--small-media .shopify-payment-button .shopify-payment-button__button--unbranded, .shopify-payment-button .product-single--small-media .shopify-payment-button__button--unbranded,
@@ -7145,10 +7145,6 @@ a.fill-div {
 
 .product-color-value {
   margin-left: 22px;
-}
-
-.color-block {
-  margin-bottom: 49px;
 }
 
 .collaborations-text {
