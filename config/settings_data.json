@@ -283,8 +283,8 @@
           "rows": 8,
           "show_collection_image": false,
           "show_vendor": false,
-          "sort_enable": false,
-          "tags_enable": false
+          "sort_enable": true,
+          "tags_enable": true
         }
       },
       "product-template": {
