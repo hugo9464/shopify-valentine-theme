@@ -2320,7 +2320,8 @@ hr {
 
 .grid-view-item__title {
   margin-bottom: 0;
-  color: var(--color-text); }
+  color: var(--color-text);
+  padding-top: 100%; }
 
 .grid-view-item__meta {
   margin-top: 8px; }
@@ -5558,56 +5559,22 @@ hr {
 
 .site-footer {
   margin-top: 55px;
-  padding: 45px 0 55px 0; }
-  @media only screen and (min-width: 750px) {
-    .site-footer {
-      padding-bottom: 35px; } }
-  .site-footer h4, .site-footer .h4 {
-    margin-bottom: 12.5px; }
+  padding-top: 10px; }
     @media only screen and (min-width: 750px) {
       .site-footer h4, .site-footer .h4 {
         min-height: calc(var(--font-size-header) * 0.7);
         margin-bottom: 25px; } }
 
 .site-footer__content {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  -ms-flex-align: start;
-  -webkit-align-items: flex-start;
-  -moz-align-items: flex-start;
-  -ms-align-items: flex-start;
-  -o-align-items: flex-start;
-  align-items: flex-start;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
+  width: 100%; }
   @media only screen and (max-width: 749px) {
     .site-footer__content {
       padding: 0 18px; } }
-  @media only screen and (min-width: 750px) {
-    .site-footer__content {
-      -webkit-flex-wrap: nowrap;
-      -moz-flex-wrap: nowrap;
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap; } }
 
 .site-footer__item {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  -webkit-flex: 1 1 100%;
-  -moz-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  margin-bottom: 55px; }
-  @media only screen and (min-width: 750px) {
-    .site-footer__item {
-      padding: 0 15px 0 15px;
-      margin-bottom: 45px; } }
+  width: 100%; }
   .site-footer__item:first-of-type {
     padding-left: 0; }
   .site-footer__item:last-of-type {
@@ -5647,14 +5614,6 @@ hr {
     -moz-flex: 1 1 50%;
     -ms-flex: 1 1 50%;
     flex: 1 1 50%; } }
-
-@media only screen and (min-width: 750px) {
-  .site-footer__item--center {
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center; }
-    .site-footer__item--center > * {
-      text-align: center; } }
 
 .site-footer__item-inner--newsletter {
   width: 100%; }
@@ -7127,7 +7086,8 @@ margin-right:0;
     justify-content: center;
     align-items: center;
     background-color: #d4967f;
-    height: 100%;
+    height: 0px;
+    padding-bottom: 100%;
   }
 }
 
@@ -7143,7 +7103,7 @@ margin-right:0;
   }
 
   .hover_box {
-    height: 403px;
+    /* height: 403px; */
   }
 }
 
