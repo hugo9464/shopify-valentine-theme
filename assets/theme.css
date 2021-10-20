@@ -5750,13 +5750,6 @@ hr {
   position: relative;
   width: 100% }
 
-.feature-row__image-wrapper:hover {
-  opacity: 80%; }
-
-  .feature-row__image-wrapper:hover .mega-title {
-    border-style: solid;
-    border-color: white; }
-
 .feature-row__image {
   display: block;
   margin: 0 auto; }
