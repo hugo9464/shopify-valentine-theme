@@ -1,0 +1,74 @@
+    <div class="page-width">        
+      <div class="page-width text-center">
+            <a href="{{ section.settings.button_link }}"
+              class="btn hero__btn"
+              aria-label="{{ ariaLabel }}">
+              {{- section.settings.button_label | escape -}}
+            </a>
+      </div>
+    </div>
+{% schema %}
+{
+  "name": {
+    "en": "Simple Button",
+    "fr": "Simple Bouton"
+  },
+  "class": "index-section index-section--flush",
+  "settings": [
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": {
+        "cs": "Text tlačítka",
+        "da": "Knaptekst",
+        "de": "Button-Etikett",
+        "en": "Button label",
+        "es": "Etiqueta de botón",
+        "fi": "Tekstipainike",
+        "fr": "Texte du bouton",
+        "it": "Etichetta pulsante",
+        "ja": "ボタンのラベル",
+        "ko": "버튼 레이블",
+        "nb": "Knappetikett",
+        "nl": "Knoplabel",
+        "pl": "Przycisk z etykietą",
+        "pt-BR": "Etiqueta de botão",
+        "pt-PT": "Etiqueta do botão",
+        "sv": "Knappetikett",
+        "th": "ป้ายกำกับปุ่ม",
+        "tr": "Düğme etiketi",
+        "vi": "Nhãn nút",
+        "zh-CN": "按钮标签",
+        "zh-TW": "按鈕標籤"
+      }
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": {
+        "cs": "Tlačítkový odkaz",
+        "da": "Knaplink",
+        "de": "Button-Etikett",
+        "en": "Button link",
+        "es": "Enlace de botón",
+        "fi": "Painikelinkki",
+        "fr": "Lien du bouton",
+        "it": "Link pulsante",
+        "ja": "ボタンのリンク",
+        "ko": "버튼 링크",
+        "nb": "Kobling for knapp",
+        "nl": "Knoplink",
+        "pl": "Link przycisku",
+        "pt-BR": "Link de botão",
+        "pt-PT": "Ligação do botão",
+        "sv": "Knapplänk",
+        "th": "ลิงก์ปุ่ม",
+        "tr": "Düğme bağlantısı",
+        "vi": "Liên kết trên nút",
+        "zh-CN": "按钮链接",
+        "zh-TW": "按鈕連結"
+      }
+    }
+  ]
+}
+{% endschema %}
