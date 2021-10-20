@@ -4,6 +4,7 @@
     "color_body_text": "#424242",
     "color_sale_text": "#424242",
     "color_button": "#6c6c6c",
+    "color_small_button_text_border": "#424242",
     "image_overlay_opacity": 0,
     "type_header_font": "avenir_next_n4",
     "type_header_base_size": 26,
