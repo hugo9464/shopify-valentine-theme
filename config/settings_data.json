@@ -964,6 +964,13 @@
           "button_label": "Voir tous les produits assemblage",
           "button_link": "shopify:\/\/collections\/assemblage"
         }
+      },
+      "simple-button-shop": {
+        "type": "simple-button-shop",
+        "settings": {
+          "button_label": "Voir tous les produits",
+          "button_link": "shopify:\/\/collections\/all"
+        }
       }
     },
     "content_for_index": [
