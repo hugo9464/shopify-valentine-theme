@@ -1,0 +1,13 @@
+  {%- if produit.metafields.informations.couleur2 != blank %}
+    <div class="variantColor variantMultiColor {% if primary == true %} primaryColor {% endif %}"  
+        style="background: linear-gradient( -45deg,
+        {{ produit.metafields.informations.couleur2 }},
+        {{ produit.metafields.informations.couleur2 }} 49%,
+        {{ produit.metafields.informations.couleur1 }} 51% );">
+  {% else %}
+    <div class="variantColor {% if primary == true %} primaryColor {% endif %}"  style="background-color: {{ produit.metafields.informations.couleur1 }};">
+  {%- endif -%}
+  {% if primary == false %}
+        <a href="{{ produit.url }}" class="fill-div"></a>
+  {% endif %}
+    </div>
