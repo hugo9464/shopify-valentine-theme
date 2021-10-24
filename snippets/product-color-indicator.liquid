@@ -8,6 +8,6 @@
     <div class="variantColor {% if primary == true %} primaryColor {% endif %}"  style="background-color: {{ produit.metafields.informations.couleur1 }};">
   {%- endif -%}
   {% if primary == false %}
-        <a href="{{ produit.url }}" class="fill-div"></a>
+        <a href="{{ produit.url | within: produit.collections.first }}" class="fill-div"></a>
   {% endif %}
     </div>
