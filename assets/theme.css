@@ -5744,12 +5744,16 @@ hr {
       width: 100%;
       max-width: 100%; } }
 
-.feature-row__image-wrapper {
+.feature-row__image-wrapper{
   position: relative;
   width: 100% }
 
 .feature-row__image-wrapper:hover {
   opacity: 80%; }
+
+.non-hover:hover {
+  opacity: 100%;
+}
 
   .feature-row__image-wrapper:hover .mega-title {
     border-style: solid;
