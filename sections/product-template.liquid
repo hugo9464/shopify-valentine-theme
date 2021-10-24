@@ -166,19 +166,21 @@
             {% unless product.has_only_default_variant %}
               <div class="product-form__controls-group">
                 {% for option in product.options_with_values %}
-                  <div class="selector-wrapper js product-form__item">
-                    <label for="SingleOptionSelector-{{ forloop.index0 }}">
-                      {{ option.name }}
-                    </label>
+                  {% comment %} <div class="selector-wrapper js product-form__item">
                     <select class="single-option-selector single-option-selector-{{ section.id }} product-form__input"
                       id="SingleOptionSelector-{{ forloop.index0 }}"
                       data-index="option{{ forloop.index }}"
-                    >
+                    > {% endcomment %}
                       {% for value in option.values %}
-                        <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
+                        {% if option.selected_value == value %}
+                          <div href="/toto" class="product-variant selected_value"> {{ value }} </div>
+                        {% else %}
+                          <a href="/{{ value.id }}" class="product-variant"> {{ option.id }} </a>
+                        {%endif%}
+                        {% comment %} <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option> {% endcomment %}
                       {% endfor %}
-                    </select>
-                  </div>
+                    {% comment %} </select>
+                  </div> {% endcomment %}
                 {% endfor %}
               </div>
             {% endunless %}
