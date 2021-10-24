@@ -460,7 +460,7 @@
             "type": "text",
             "settings": {
               "title": "Nous produisons localement",
-              "text": "<p>Tous nos prototypes de menuiserie sont fabriqués de manière artisanale par l’ébéniste français Constant Mulet. <\/p><p>C’est ensuite la manufacture Jacquemin qui se charge de réaliser notre production dans les montagnes du Jura. <\/p>",
+              "text": "<p>Tous nos prototypes de menuiserie sont fabriqués de manière artisanale par l’ébéniste français Constant Mulet. <\/p><p>C’est ensuite la manufacture Jacquemin qui se charge de réaliser notre production dans les montagnes du Jura. <\/p><p><\/p><p>Chaque pièce de cuir grainé a été travaillée au préalable, dans l'atelier à Paris, pour vous faciliter le montage et obtenir un résultat haut-de-gamme aux finitions impeccables. <\/p><p><\/p><p>La préparation du coffret est également réalisé à l'atelier par notre équipe.<\/p>",
               "width": "50%",
               "alignment": "center",
               "align_text": "left"
@@ -658,7 +658,7 @@
           "471773d3-7d60-4e0e-8c28-03867d1b2946": {
             "type": "text",
             "settings": {
-              "title": "Collaborations",
+              "title": "Collaborations et clients",
               "text": "<p>De nombreuses marques nous ont fait confiance. Cette relation a donné naissance à de beaux projets collaboratifs où l’identité de chacun se retrouve dans les pièces réalisées.<br\/><\/p><p>Baccarat – Louis Vuitton – Fauré Lepage – Alice Fournier – Hotel le A – Dior – Emilie Heathe – Ibaba Rwanda – Quintessence – RSVP – Tudor – Atelier Singulier – Engie – Doc Martens – Felicie Eymard – ATHEA Design – Olow – Pierre Yovanovitch – CNB Yacht<\/p>",
               "width": "50%",
               "alignment": "center",
@@ -876,7 +876,7 @@
         ],
         "settings": {
           "title": "",
-          "align_text": "left"
+          "align_text": "center"
         }
       },
       "hero-studio": {
