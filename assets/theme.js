@@ -7884,6 +7884,7 @@ theme.Product = (function() {
     };
 
     this.selectors = {
+      inventoryHtml: '.inventoryWrapper',
       addToCart: '[data-add-to-cart]',
       addToCartText: '[data-add-to-cart-text]',
       cartCount: '[data-cart-count]',
@@ -8914,11 +8915,19 @@ theme.Product = (function() {
      *                  productState.showUnitPrice - true if variant has unit price value
      */
     _setProductState: function(evt) {
+      var inventoryWrapper = this.container.querySelector(this.selectors.inventoryHtml);
       var variant = evt.detail.variant;
 
       if (!variant) {
         this.productState.available = false;
         return;
+      } else {
+        if (variantStock[variant.id] > 0 && variant.inventory_management == 'shopify' && inventoryWrapper !== null) {
+          const inventoryHtml = `<p>En stock: ${variantStock[variant.id]}</p>`;
+          inventoryWrapper.innerHTML = inventoryHtml;
+        } else {
+          inventoryWrapper.innerHTML = '<p>Livraison dans 4 à 6 semaines.</p>';
+        }
       }
 
       this.productState.available = true;
