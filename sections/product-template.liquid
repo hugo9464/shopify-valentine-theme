@@ -241,7 +241,10 @@
                   {% if current_variant.inventory_quantity > 0 and current_variant.inventory_management == 'shopify' %}
                     <p>En stock: {{ current_variant.inventory_quantity }}</p>
                   {% else %}
-                    <p>Livraison dans 4 à 6 semaines.</p>
+                    {% if current_variant.inventory_policy == 'continue' %}
+                      <p>Livraison dans 4 à 6 semaines. {{ current_variant.inventory_policy }}</p>
+                    {% else %}
+                    {% endif %}
                   {% endif %}
                 </div>
 

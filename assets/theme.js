@@ -8925,8 +8925,10 @@ theme.Product = (function() {
         if (variantStock[variant.id] > 0 && variant.inventory_management == 'shopify' && inventoryWrapper !== null) {
           const inventoryHtml = `<p>En stock: ${variantStock[variant.id]}</p>`;
           inventoryWrapper.innerHTML = inventoryHtml;
-        } else {
+        } else if ( variant.inventory_policy == 'continue'){
           inventoryWrapper.innerHTML = '<p>Livraison dans 4 à 6 semaines.</p>';
+        } else {
+          inventoryWrapper.innerHTML = '';
         }
       }
 
