@@ -18,6 +18,9 @@
 <style>
 .tab-customize {
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .tab-customize button {
   background-color: inherit;
@@ -25,9 +28,9 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
   transition: 0.3s;
   opacity: 0.6;
+  padding: 14px 0px;
 }
 .tab-customize button.active {
   border-bottom: 1px solid #000;
@@ -38,12 +41,5 @@
   display: none;
   padding: 6px 12px;
   border-top: none;
-}
-
-@media only screen and (max-width: 749px) {
-  .tablinks-cus {
-    font-size: 14px;
-    width: 33%;
-  }
 }
 </style>
