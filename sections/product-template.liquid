@@ -246,7 +246,14 @@
                     <p>En stock: {{ current_variant.inventory_quantity }}</p>
                   {% else %}
                     {% if current_variant.inventory_policy == 'continue' %}
-                      <p>Livraison dans 4 à 6 semaines. {{ current_variant.inventory_policy }}</p>
+                      {% for collection in product.collections %}
+                        {% if collection.title == 'Assemblage' %}
+                          {% assign delivery_time = '2 à 4' %}
+                        {% else %}
+                          {% assign delivery_time = '4 à 6' %}
+                        {% endif %} 
+                      {% endfor %}
+                      <p>Livraison dans {{ delivery_time }} semaines.</p>
                     {% else %}
                     {% endif %}
                   {% endif %}
