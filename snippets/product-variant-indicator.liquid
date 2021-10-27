@@ -1,0 +1,6 @@
+
+<div class="variantColor {% if variant.id == current_variant.id %} primaryColor {% endif %}"  style="background-color: {{ variant.metafields.informations.couleur.value }};">
+{% if variant.id != current_variant.id %}
+      <a href="{{ produit.url | within: produit.collections.first }}?variant={{ variant.id }}" class="fill-div"></a>
+{% endif %}
+  </div>

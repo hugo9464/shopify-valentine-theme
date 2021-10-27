@@ -165,6 +165,10 @@
 
             {% unless product.has_only_default_variant %}
               <div class="product-form__controls-group">
+                {% comment %} {% for variant in product.variants %}
+                <p> {{ variant.id }}_{{ current_variant.id}}</p>
+                  {% render 'product-variant-indicator', variant: variant, current_variant: current_variant, produit: produit %}
+                {% endfor %} {% endcomment %}
                 {% for option in product.options_with_values %}
                   <div class="selector-wrapper js product-form__item">
                     <label for="SingleOptionSelector-{{ forloop.index0 }}">
