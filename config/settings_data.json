@@ -153,6 +153,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "df49c874-2314-4a41-a52c-0f406d717f3d": {
+            "type": "text",
+            "settings": {
+              "title": "Contact",
+              "text": "<p>Une remarque, une question,<br\/>un mot doux ?<br\/>Contactez nous !<\/p>"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -162,6 +169,7 @@
           }
         },
         "block_order": [
+          "df49c874-2314-4a41-a52c-0f406d717f3d",
           "footer-0"
         ],
         "settings": {
