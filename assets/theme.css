@@ -7159,10 +7159,16 @@ margin-right:0;
 }
 
 @media only screen and (max-width: 749px){
-  .custom__item.small--one-half {
-      -webkit-flex: 1 0 100% !important;
-      -moz-flex: 1 0 100% !important;
-      -ms-flex: 1 0 100% !important;
-      flex: 1 0 100% !important;
+    .custom__item.small--one-half {
+        -webkit-flex: 1 0 100% !important;
+        -moz-flex: 1 0 100% !important;
+        -ms-flex: 1 0 100% !important;
+        flex: 1 0 100% !important;
+    }
+}
+
+@media only screen and (min-width: 750px){
+  .assemblage-button {
+    margin-top: -80px;
   }
-  }
+}
