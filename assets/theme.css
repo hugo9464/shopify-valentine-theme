@@ -5599,7 +5599,11 @@ hr {
     padding-right: 0; }
     @media only screen and (max-width: 749px) {
       .site-footer__item:last-of-type {
-        margin-bottom: 0; } }
+        margin-bottom: 0; }
+      .site-footer__item {
+        margin-bottom: 45px;
+      }
+    }
 
 @media only screen and (min-width: 750px) {
   .site-footer__item--full-width {
@@ -5699,6 +5703,10 @@ hr {
 
 .social-icons__link {
   display: block; }
+
+.social-icons__link:hover {
+  text-decoration: underline;
+}
 
 .site-footer__subwrapper {
   margin-top: 35px; }
@@ -7194,11 +7202,36 @@ margin-right:0;
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 749px){
+  .footer-blocks {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
 .footer-copyright {
-  margin-top: 100px;
+  margin-top: 25px;
   margin-bottom: 20px;
 }
 
 .align-text-center {
   text-align: center;
+}
+
+.insta-links-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.insta-links-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.insta-text {
+  margin-left: 5px;
 }

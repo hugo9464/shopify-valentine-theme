@@ -231,8 +231,7 @@
         {%- endfor -%}
       <div class="site-footer__item-inner">
         <h3>Suivez-nous !</h3>
-        <ul class="list--inline site-footer__social-icons social-icons site-footer__icon-list">
-            {%- for social in socials -%}
+            {% comment %} {%- for social in socials -%}
               {%- assign social_link = social | prepend: 'social_' | append: '_link' | downcase -%}
               {%- assign icon_link = social | prepend: 'icon-' | downcase -%}
               {%- if settings[social_link] != blank -%}
@@ -243,8 +242,26 @@
                   </a>
                 </li>
               {%- endif -%}
-            {%- endfor -%}
-
+            {%- endfor -%} {% endcomment %}
+            <ul class="insta-links-block">
+              <li class="social-icons__item insta-links-item">
+                  <a class="social-icons__link" href="https://www.instagram.com/assemblage.paris/" aria-describedby="a11y-external-message">
+                    {%- include 'icon-instagram' -%}
+                  </a>
+                  <a class="social-icons__link" href="https://www.instagram.com/assemblage.paris/" aria-describedby="a11y-external-message">
+                    <span class="insta-text">Assemblage</span>
+                  </a>
+                </li>
+                <li class="social-icons__item insta-links-item">
+                  <a class="social-icons__link" href="https://www.instagram.com/valentinehdespointes/" aria-describedby="a11y-external-message">
+                    {%- include 'icon-instagram' -%}
+                  </a>
+                  <a class="social-icons__link" href="https://www.instagram.com/valentinehdespointes/" aria-describedby="a11y-external-message">
+                    <span class="insta-text">Valentine H. Despointes</span>
+                  </a>
+                </li>
+            </ul>
+{% comment %} 
             {%- if request.page_type == 'blog' or request.page_type == 'article' -%}
               <li>
                 <a class="social-icons__link" href="{{ shop.url }}{{ blog.url }}.atom">
@@ -252,8 +269,7 @@
                   <span class="icon__fallback-text">RSS</span>
                 </a>
               </li>
-            {%- endif -%}
-          </ul>
+            {%- endif -%} {% endcomment %}
         </div>
       </div>
       <div class="footer-copyright">
