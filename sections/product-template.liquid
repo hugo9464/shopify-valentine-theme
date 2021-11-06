@@ -291,14 +291,14 @@
           aria-hidden="true"
         >{{ 'products.product.loader_label' | t }}</p>
 
-        <div
+        {% comment %} <div
           class="product-single__store-availability-container"
           data-store-availability-container
           data-product-title="{{ product.title | escape }}"
           data-has-only-default-variant="{{ product.has_only_default_variant }}"
           data-base-url="{{ shop.url }}{{ routes.root_url }}"
         >
-        </div>
+        </div> {% endcomment %}
 
         {% if section.settings.show_share_buttons %}
           {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product.featured_media %}
