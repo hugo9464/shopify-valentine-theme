@@ -67,29 +67,88 @@
 	          best_option.ymq_option_template[`tem{{key}}`] = {{ shop.metafields.ymq_option[ymq_template] | json }}
 	          best_option.ymq_option_template_condition[`tem{{key}}`] = {{ shop.metafields.ymq_option[ymq_condition] | json }} 
 	       {% endif %} 
-	    {% endfor %}                                   
-	                                                                      
-		{% if product.options_with_values %}   
-			best_option.ymq_shopify_options = {}; 
-			{% for option in product.options_with_values %} 
-				best_option.ymq_shopify_options[`{{ option.name }}`] = []; 
-				{% for value in option.values %} 
-					best_option.ymq_shopify_options[`{{ option.name }}`].push(`{{ value | escape }}`); 
-				{% endfor %} 
-			{% endfor %} 
-		{% endif %} 
+	    {% endfor %}
 
-		best_option.ymq_inventory_quantity = [];  
-		{% for v in product.variants %}   
-			best_option.ymq_inventory_quantity.push({{v.inventory_quantity}}); 
-		{% endfor %} 
+        {% if shop.metafields.ymq_option.ymq_option_template_sort %}
+            best_option.ymq_option_template_sort = `{{ shop.metafields.ymq_option.ymq_option_template_sort }}`;
+        {% else %}
+            best_option.ymq_option_template_sort = false;
+        {% endif %}
 
-		if(best_option.product) {   
-			for (var i = 0; i < best_option.product.variants.length; i += 1) { 
-				best_option.product.variants[i].inventory_quantity = best_option.ymq_inventory_quantity[i]; 
-			 }  
-		} 
+        {% if shop.metafields.ymq_option.ymq_option_template_sort_before %}
+            best_option.ymq_option_template_sort_before = `{{ shop.metafields.ymq_option.ymq_option_template_sort_before }}`;
+        {% else %}
+            best_option.ymq_option_template_sort_before = false;
+        {% endif %}
+        
+        best_option.ymq_option_template_c_t = {};
+  		best_option.ymq_option_template_condition_c_t = {};
+        {% if shop.metafields.ymq_option.ymq_template_2_collections %}
+            {% assign ymq_template_2_collections = shop.metafields.ymq_option.ymq_template_2_collections %}
+            {% if ymq_template_2_collections != '' %}
+                {% assign ymq_template_2_collections_array = ymq_template_2_collections | split: "||||" %}
+                {% if ymq_template_2_collections_array.size == 2 %}
+                    {% assign ymq_collections_array = ymq_template_2_collections_array[0] | split: "," %}
+                    {% assign ymq_templates_array = ymq_template_2_collections_array[1] | split: "--" %}
+                    {% if ymq_collections_array.size == ymq_templates_array.size %}
+                        {% for ymq_collection_item in ymq_collections_array %}
+                            {% assign ymq_index = forloop.index | minus: 1 %}
+                            {% for ymq_product_collection in product.collections %}
+                                {% assign ymq_product_collection_id = ymq_product_collection.id | append: "" %}
+                                {% if ymq_collection_item == ymq_product_collection_id %}
+                                    {% assign ymq_templates_ids_string = ymq_templates_array[ymq_index] %}
+                                    {% assign ymq_templates_ids_array = ymq_templates_ids_string | split: "," %}
+                                    {% for key in ymq_templates_ids_array %}    
+                                    {% assign ymq_template = 'ymq_template_' | append: key %} 
+                                    {% assign ymq_condition = 'ymq_condition_' | append: key %} 
+                                    {% if shop.metafields.ymq_option[ymq_template] %} 
+                                        best_option.ymq_option_template_c_t[`tem{{key}}`] = {{ shop.metafields.ymq_option[ymq_template] | json }}
+                                        best_option.ymq_option_template_condition_c_t[`tem{{key}}`] = {{ shop.metafields.ymq_option[ymq_condition] | json }} 
+                                    {% endif %} 
+                                    {% endfor %}
+                                    {% break %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endif %}
+
+        {% if shop.metafields.ymq_option.ymq_template_2_tags %}
+            {% assign ymq_template_2_tags = shop.metafields.ymq_option.ymq_template_2_tags %}
+            {% if ymq_template_2_tags != '' %}
+                {% assign ymq_template_2_tags_array = ymq_template_2_tags | split: "||||" %}
+                {% if ymq_template_2_tags_array.size == 2 %}
+                    {% assign ymq_tags_array = ymq_template_2_tags_array[0] | split: "," %}
+                    {% assign ymq_templates_array = ymq_template_2_tags_array[1] | split: "--" %}
+                    {% if ymq_tags_array.size == ymq_templates_array.size %}
+                        {% for ymq_tag_item in ymq_tags_array %}
+                            {% assign ymq_index = forloop.index | minus: 1 %}
+                            {% for ymq_product_tag in product.tags %}
+                                {% if ymq_tag_item == ymq_product_tag %}
+                                    {% assign ymq_templates_ids_string = ymq_templates_array[ymq_index] %}
+                                    {% assign ymq_templates_ids_array = ymq_templates_ids_string | split: "," %}
+                                    {% for key in ymq_templates_ids_array %}    
+                                    {% assign ymq_template = 'ymq_template_' | append: key %} 
+                                    {% assign ymq_condition = 'ymq_condition_' | append: key %} 
+                                    {% if shop.metafields.ymq_option[ymq_template] %} 
+                                        best_option.ymq_option_template_c_t[`tem{{key}}`] = {{ shop.metafields.ymq_option[ymq_template] | json }}
+                                        best_option.ymq_option_template_condition_c_t[`tem{{key}}`] = {{ shop.metafields.ymq_option[ymq_condition] | json }} 
+                                    {% endif %} 
+                                    {% endfor %}
+                                    {% break %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endif %}
+
+
+
 	</script>
 
-<script src='https://options.ymq.cool/option/best-options.js'></script>
+	<script src='https://options.ymq.cool/option/best-options.js'></script>
 {% endif %} 
